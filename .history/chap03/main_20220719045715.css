@@ -204,7 +204,7 @@ body {
 .div1 {
     position: absolute;
     top: 33%;
-    left: 850px;
+    left: 900px;
 }
 
 .div2 {
@@ -216,7 +216,7 @@ body {
 .btn__seeconllec {
     position: absolute;
     top: 80%;
-    left: 850px;
+    left: 700px;
     font-family: 'Roboto';
     font-size: 29px;
     padding: 10px 20px;
@@ -228,7 +228,7 @@ body {
     position: absolute;
     top: 50%;
     color: #fff;
-    left: 800px;
+    left: 650px;
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 27px;

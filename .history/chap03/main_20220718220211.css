@@ -195,88 +195,11 @@ body {
 /* ==brand-banner== */
 
 .brand-banner {
+    padding: 80px 0;
     width: 100%;
     height: 776px;
-    position: relative;
-    background-image: url("./upload/collection/4.png");
-}
-
-.div1 {
-    position: absolute;
-    top: 33%;
-    left: 850px;
-}
-
-.div2 {
-    position: absolute;
-    top: 5%;
-    right: 0;
-}
-
-.btn__seeconllec {
-    position: absolute;
-    top: 80%;
-    left: 850px;
-    font-family: 'Roboto';
-    font-size: 29px;
-    padding: 10px 20px;
-    text-align: center;
-    text-transform: capitalize;
-}
-
-.txt__conllec {
-    position: absolute;
-    top: 50%;
-    color: #fff;
-    left: 800px;
-    font-family: 'Roboto';
-    font-weight: 400;
-    font-size: 27px;
-    padding: 15px 50px;
-}
-
-.follow-instagam {
-    margin-top: 100px;
-    width: 100%;
-    height: 700px;
-    background: #F1F1F1;
-}
-
-.follow-instagam h1 {
-    letter-spacing: 0.1em;
-    text-transform: capitalize;
-    font-family: 'Roboto';
-    font-weight: 900;
-    font-size: 40px;
-    padding-top: 50px;
-    text-align: center;
+    background-image: url("./upload/collection/1.png");
 }
 
 
-/* Instagram */
-
-.instagram__images img {
-    margin-top: 50px;
-    padding: 0 10px;
-}
-
-.instagram__images {
-    display: flex;
-}
-
-.input-group {
-    margin-top: 50px;
-}
-
-.input__email {
-    background-color: #F1F1F1;
-    border: 2px;
-    padding-top: 20px;
-    padding-right: 500px;
-    margin-left: 400px;
-}
-
-#btn__button {
-    border: 2px;
-    color: #000;
-}
+/* ==Best sellers== */

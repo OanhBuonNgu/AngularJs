@@ -1,0 +1,722 @@
+{
+    "sourceFile": "chap03/main.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 176,
+            "patches": [
+                {
+                    "date": 1658155823163,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1658155855208,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -198,9 +198,9 @@\n     padding: 80px 0;\r\n }\r\n \r\n .brand-banner__background {\r\n-    background-image: url(./upload/collection/1.png );\r\n+    background-image: url(/upload/collection/1.png );\r\n }\r\n \r\n \r\n /* ==Best sellers== */\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658155898475,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -198,9 +198,9 @@\n     padding: 80px 0;\r\n }\r\n \r\n .brand-banner__background {\r\n-    background-image: url(/upload/collection/1.png );\r\n+    background-image: url(./upload//collection/1.png);\r\n }\r\n \r\n \r\n /* ==Best sellers== */\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658155986589,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -198,9 +198,10 @@\n     padding: 80px 0;\r\n }\r\n \r\n .brand-banner__background {\r\n-    background-image: url(./upload//collection/1.png);\r\n+    background-image: url(\"./upload/collection/1.png\");\r\n+    background-repeat: no-repeat;\r\n }\r\n \r\n \r\n /* ==Best sellers== */\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658156007302,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -198,8 +198,10 @@\n     padding: 80px 0;\r\n }\r\n \r\n .brand-banner__background {\r\n+    width: 100%;\r\n+    height: 600px;\r\n     background-image: url(\"./upload/collection/1.png\");\r\n     background-repeat: no-repeat;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1658156019671,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -197,9 +197,9 @@\n .brand-banner {\r\n     padding: 80px 0;\r\n }\r\n \r\n-.brand-banner__background {\r\n+.brand-banner {\r\n     width: 100%;\r\n     height: 600px;\r\n     background-image: url(\"./upload/collection/1.png\");\r\n     background-repeat: no-repeat;\r\n"
+                },
+                {
+                    "date": 1658156033863,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -193,9 +193,9 @@\n \r\n \r\n /* ==brand-banner== */\r\n \r\n-.brand-banner {\r\n+.brand-banner .container {\r\n     padding: 80px 0;\r\n }\r\n \r\n .brand-banner {\r\n"
+                },
+                {
+                    "date": 1658156041124,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -201,9 +201,9 @@\n .brand-banner {\r\n     width: 100%;\r\n     height: 600px;\r\n     background-image: url(\"./upload/collection/1.png\");\r\n-    background-repeat: no-repeat;\r\n+    /* background-repeat: no-repeat; */\r\n }\r\n \r\n \r\n /* ==Best sellers== */\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658156049175,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -198,12 +198,13 @@\n     padding: 80px 0;\r\n }\r\n \r\n .brand-banner {\r\n+    position: relative;\r\n     width: 100%;\r\n     height: 600px;\r\n     background-image: url(\"./upload/collection/1.png\");\r\n-    /* background-repeat: no-repeat; */\r\n+    background-repeat: no-repeat;\r\n }\r\n \r\n \r\n /* ==Best sellers== */\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658156058528,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -193,12 +193,8 @@\n \r\n \r\n /* ==brand-banner== */\r\n \r\n-.brand-banner .container {\r\n-    padding: 80px 0;\r\n-}\r\n-\r\n .brand-banner {\r\n     position: relative;\r\n     width: 100%;\r\n     height: 600px;\r\n"
+                },
+                {
+                    "date": 1658156101415,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -193,13 +193,17 @@\n \r\n \r\n /* ==brand-banner== */\r\n \r\n+.brand-banner .container {\r\n+    padding: 80px 0;\r\n+}\r\n+\r\n .brand-banner {\r\n     position: relative;\r\n     width: 100%;\r\n     height: 600px;\r\n-    background-image: url(\"./upload/collection/1.png\");\r\n+    background-image: url(\"./upload/collection/1.png 2x\");\r\n     background-repeat: no-repeat;\r\n }\r\n \r\n \r\n"
+                },
+                {
+                    "date": 1658156110702,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -201,9 +201,9 @@\n .brand-banner {\r\n     position: relative;\r\n     width: 100%;\r\n     height: 600px;\r\n-    background-image: url(\"./upload/collection/1.png 2x\");\r\n+    background-image: url(\"./upload/collection/1.png 1x\");\r\n     background-repeat: no-repeat;\r\n }\r\n \r\n \r\n"
+                },
+                {
+                    "date": 1658156117989,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -201,10 +201,9 @@\n .brand-banner {\r\n     position: relative;\r\n     width: 100%;\r\n     height: 600px;\r\n-    background-image: url(\"./upload/collection/1.png 1x\");\r\n-    background-repeat: no-repeat;\r\n+    background-image: url(\"./upload/collection/1.png \");\r\n }\r\n \r\n \r\n /* ==Best sellers== */\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658156130320,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -197,9 +197,9 @@\n .brand-banner .container {\r\n     padding: 80px 0;\r\n }\r\n \r\n-.brand-banner {\r\n+.brand-banner .container {\r\n     position: relative;\r\n     width: 100%;\r\n     height: 600px;\r\n     background-image: url(\"./upload/collection/1.png \");\r\n"
+                },
+                {
+                    "date": 1658156138952,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -201,9 +201,9 @@\n .brand-banner .container {\r\n     position: relative;\r\n     width: 100%;\r\n     height: 600px;\r\n-    background-image: url(\"./upload/collection/1.png \");\r\n+    background-image: url(\"./upload/collection/1.png 2x\");\r\n }\r\n \r\n \r\n /* ==Best sellers== */\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658156144476,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -201,9 +201,9 @@\n .brand-banner .container {\r\n     position: relative;\r\n     width: 100%;\r\n     height: 600px;\r\n-    background-image: url(\"./upload/collection/1.png 2x\");\r\n+    background-image: url(\"./upload/collection/1.png\");\r\n }\r\n \r\n \r\n /* ==Best sellers== */\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658156154921,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -199,10 +199,8 @@\n }\r\n \r\n .brand-banner .container {\r\n     position: relative;\r\n-    width: 100%;\r\n-    height: 600px;\r\n     background-image: url(\"./upload/collection/1.png\");\r\n }\r\n \r\n \r\n"
+                },
+                {
+                    "date": 1658156171524,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -197,10 +197,11 @@\n .brand-banner .container {\r\n     padding: 80px 0;\r\n }\r\n \r\n-.brand-banner .container {\r\n+.container {\r\n     position: relative;\r\n+    width: 100%;\r\n     background-image: url(\"./upload/collection/1.png\");\r\n }\r\n \r\n \r\n"
+                },
+                {
+                    "date": 1658156179062,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -197,9 +197,9 @@\n .brand-banner .container {\r\n     padding: 80px 0;\r\n }\r\n \r\n-.container {\r\n+.brand-banner .container {\r\n     position: relative;\r\n     width: 100%;\r\n     background-image: url(\"./upload/collection/1.png\");\r\n }\r\n"
+                },
+                {
+                    "date": 1658156196745,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -194,14 +194,11 @@\n \r\n /* ==brand-banner== */\r\n \r\n .brand-banner .container {\r\n-    padding: 80px 0;\r\n-}\r\n-\r\n-.brand-banner .container {\r\n     position: relative;\r\n     width: 100%;\r\n+    height: 600px;\r\n     background-image: url(\"./upload/collection/1.png\");\r\n }\r\n \r\n \r\n"
+                },
+                {
+                    "date": 1658156334116,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -194,8 +194,13 @@\n \r\n /* ==brand-banner== */\r\n \r\n .brand-banner .container {\r\n+    width: 100%;\r\n+    height: 600px;\r\n+}\r\n+\r\n+.brand-banner .container {\r\n     position: relative;\r\n     width: 100%;\r\n     height: 600px;\r\n     background-image: url(\"./upload/collection/1.png\");\r\n"
+                },
+                {
+                    "date": 1658156341423,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -193,9 +193,9 @@\n \r\n \r\n /* ==brand-banner== */\r\n \r\n-.brand-banner .container {\r\n+.brand-banner {\r\n     width: 100%;\r\n     height: 600px;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1658156365329,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -194,17 +194,9 @@\n \r\n /* ==brand-banner== */\r\n \r\n .brand-banner {\r\n-    width: 100%;\r\n-    height: 600px;\r\n+    padding: 80px 0;\r\n }\r\n \r\n-.brand-banner .container {\r\n-    position: relative;\r\n-    width: 100%;\r\n-    height: 600px;\r\n-    background-image: url(\"./upload/collection/1.png\");\r\n-}\r\n \r\n-\r\n /* ==Best sellers== */\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658156494577,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -195,8 +195,9 @@\n /* ==brand-banner== */\r\n \r\n .brand-banner {\r\n     padding: 80px 0;\r\n+    background-image: image(\"./upload/collection/1.png\");\r\n }\r\n \r\n \r\n /* ==Best sellers== */\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658156506027,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -195,9 +195,9 @@\n /* ==brand-banner== */\r\n \r\n .brand-banner {\r\n     padding: 80px 0;\r\n-    background-image: image(\"./upload/collection/1.png\");\r\n+    background-image: url(\"./upload/collection/1.png\");\r\n }\r\n \r\n \r\n /* ==Best sellers== */\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658156518258,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -195,8 +195,9 @@\n /* ==brand-banner== */\r\n \r\n .brand-banner {\r\n     padding: 80px 0;\r\n+    width: 100%;\r\n     background-image: url(\"./upload/collection/1.png\");\r\n }\r\n \r\n \r\n"
+                },
+                {
+                    "date": 1658156531492,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -196,8 +196,9 @@\n \r\n .brand-banner {\r\n     padding: 80px 0;\r\n     width: 100%;\r\n+    height: 776px;\r\n     background-image: url(\"./upload/collection/1.png\");\r\n }\r\n \r\n \r\n"
+                },
+                {
+                    "date": 1658156588330,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -197,9 +197,9 @@\n .brand-banner {\r\n     padding: 80px 0;\r\n     width: 100%;\r\n     height: 776px;\r\n-    background-image: url(\"./upload/collection/1.png\");\r\n+    background-image: url(\"./upload/collection/2.png\");\r\n }\r\n \r\n \r\n /* ==Best sellers== */\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658156608384,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -197,9 +197,9 @@\n .brand-banner {\r\n     padding: 80px 0;\r\n     width: 100%;\r\n     height: 776px;\r\n-    background-image: url(\"./upload/collection/2.png\");\r\n+    background-image: url(\"./upload/collection/3.png\");\r\n }\r\n \r\n \r\n /* ==Best sellers== */\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658156625632,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -197,9 +197,9 @@\n .brand-banner {\r\n     padding: 80px 0;\r\n     width: 100%;\r\n     height: 776px;\r\n-    background-image: url(\"./upload/collection/3.png\");\r\n+    background-image: url(\"./upload/collection/4.png\");\r\n }\r\n \r\n \r\n /* ==Best sellers== */\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658156639221,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -194,9 +194,9 @@\n \r\n /* ==brand-banner== */\r\n \r\n .brand-banner {\r\n-    padding: 80px 0;\r\n+    padding: 90px 0;\r\n     width: 100%;\r\n     height: 776px;\r\n     background-image: url(\"./upload/collection/4.png\");\r\n }\r\n"
+                },
+                {
+                    "date": 1658156646128,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -194,9 +194,8 @@\n \r\n /* ==brand-banner== */\r\n \r\n .brand-banner {\r\n-    padding: 90px 0;\r\n     width: 100%;\r\n     height: 776px;\r\n     background-image: url(\"./upload/collection/4.png\");\r\n }\r\n"
+                },
+                {
+                    "date": 1658157062770,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -196,8 +196,9 @@\n \r\n .brand-banner {\r\n     width: 100%;\r\n     height: 776px;\r\n+    position: relative;\r\n     background-image: url(\"./upload/collection/4.png\");\r\n }\r\n \r\n \r\n"
+                },
+                {
+                    "date": 1658157360009,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -200,6 +200,12 @@\n     position: relative;\r\n     background-image: url(\"./upload/collection/4.png\");\r\n }\r\n \r\n+.div1 {\r\n+    position: absolute;\r\n+    top: 0;\r\n+    right: 0;\r\n+}\r\n \r\n+\r\n /* ==Best sellers== */\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658157385841,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -202,9 +202,9 @@\n }\r\n \r\n .div1 {\r\n     position: absolute;\r\n-    top: 0;\r\n+    top: 70;\r\n     right: 0;\r\n }\r\n \r\n \r\n"
+                },
+                {
+                    "date": 1658157391159,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -202,9 +202,9 @@\n }\r\n \r\n .div1 {\r\n     position: absolute;\r\n-    top: 70;\r\n+    top: 70%;\r\n     right: 0;\r\n }\r\n \r\n \r\n"
+                },
+                {
+                    "date": 1658157397599,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -202,9 +202,9 @@\n }\r\n \r\n .div1 {\r\n     position: absolute;\r\n-    top: 70%;\r\n+    top: 60%;\r\n     right: 0;\r\n }\r\n \r\n \r\n"
+                },
+                {
+                    "date": 1658157411487,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -202,9 +202,9 @@\n }\r\n \r\n .div1 {\r\n     position: absolute;\r\n-    top: 60%;\r\n+    top: 45%;\r\n     right: 0;\r\n }\r\n \r\n \r\n"
+                },
+                {
+                    "date": 1658157422771,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -203,9 +203,9 @@\n \r\n .div1 {\r\n     position: absolute;\r\n     top: 45%;\r\n-    right: 0;\r\n+    left: 500px;\r\n }\r\n \r\n \r\n /* ==Best sellers== */\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658157429682,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -204,8 +204,5 @@\n .div1 {\r\n     position: absolute;\r\n     top: 45%;\r\n     left: 500px;\r\n-}\r\n-\r\n-\r\n-/* ==Best sellers== */\n\\ No newline at end of file\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658157436220,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -203,6 +203,6 @@\n \r\n .div1 {\r\n     position: absolute;\r\n     top: 45%;\r\n-    left: 500px;\r\n+    left: 700px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658157444719,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -203,6 +203,6 @@\n \r\n .div1 {\r\n     position: absolute;\r\n     top: 45%;\r\n-    left: 700px;\r\n+    left: 900px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658157467479,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -204,5 +204,10 @@\n .div1 {\r\n     position: absolute;\r\n     top: 45%;\r\n     left: 900px;\r\n+}\r\n+\r\n+.div2 {\r\n+    position: absolute;\r\n+    top: 0;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658157475685,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -209,5 +209,6 @@\n \r\n .div2 {\r\n     position: absolute;\r\n     top: 0;\r\n+    right: 0;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658157484096,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -208,7 +208,7 @@\n }\r\n \r\n .div2 {\r\n     position: absolute;\r\n-    top: 0;\r\n+    top: 5%;\r\n     right: 0;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658157491619,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -203,9 +203,9 @@\n \r\n .div1 {\r\n     position: absolute;\r\n     top: 45%;\r\n-    left: 900px;\r\n+    left: 700px;\r\n }\r\n \r\n .div2 {\r\n     position: absolute;\r\n"
+                },
+                {
+                    "date": 1658157498531,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -202,9 +202,9 @@\n }\r\n \r\n .div1 {\r\n     position: absolute;\r\n-    top: 45%;\r\n+    top: 44%;\r\n     left: 700px;\r\n }\r\n \r\n .div2 {\r\n"
+                },
+                {
+                    "date": 1658157504722,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -202,9 +202,9 @@\n }\r\n \r\n .div1 {\r\n     position: absolute;\r\n-    top: 44%;\r\n+    top: 40%;\r\n     left: 700px;\r\n }\r\n \r\n .div2 {\r\n"
+                },
+                {
+                    "date": 1658157512174,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -202,9 +202,9 @@\n }\r\n \r\n .div1 {\r\n     position: absolute;\r\n-    top: 40%;\r\n+    top: 35%;\r\n     left: 700px;\r\n }\r\n \r\n .div2 {\r\n"
+                },
+                {
+                    "date": 1658157522631,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -202,9 +202,9 @@\n }\r\n \r\n .div1 {\r\n     position: absolute;\r\n-    top: 35%;\r\n+    top: 33%;\r\n     left: 700px;\r\n }\r\n \r\n .div2 {\r\n"
+                },
+                {
+                    "date": 1658157554556,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -210,5 +210,9 @@\n .div2 {\r\n     position: absolute;\r\n     top: 5%;\r\n     right: 0;\r\n+}\r\n+\r\n+.btn__seeconllec {\r\n+    top: 70%%;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658157596157,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -213,6 +213,7 @@\n     right: 0;\r\n }\r\n \r\n .btn__seeconllec {\r\n-    top: 70%%;\r\n+    position: absolute;\r\n+    top: 70%;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658157619013,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -215,5 +215,6 @@\n \r\n .btn__seeconllec {\r\n     position: absolute;\r\n     top: 70%;\r\n+    left: 700px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658157661392,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -216,5 +216,6 @@\n .btn__seeconllec {\r\n     position: absolute;\r\n     top: 70%;\r\n     left: 700px;\r\n+    padding: 50px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658157667076,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -216,6 +216,6 @@\n .btn__seeconllec {\r\n     position: absolute;\r\n     top: 70%;\r\n     left: 700px;\r\n-    padding: 50px;\r\n+    padding: 50px 0;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658157673429,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -216,6 +216,6 @@\n .btn__seeconllec {\r\n     position: absolute;\r\n     top: 70%;\r\n     left: 700px;\r\n-    padding: 50px 0;\r\n+    padding: 0 50px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658157678674,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -216,6 +216,6 @@\n .btn__seeconllec {\r\n     position: absolute;\r\n     top: 70%;\r\n     left: 700px;\r\n-    padding: 0 50px;\r\n+    padding: 20px 50px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658157692787,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -216,6 +216,7 @@\n .btn__seeconllec {\r\n     position: absolute;\r\n     top: 70%;\r\n     left: 700px;\r\n+    font-size: 27px;\r\n     padding: 20px 50px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658157703797,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -216,7 +216,8 @@\n .btn__seeconllec {\r\n     position: absolute;\r\n     top: 70%;\r\n     left: 700px;\r\n+    font-family: Arial;\r\n     font-size: 27px;\r\n     padding: 20px 50px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658157712321,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -218,6 +218,6 @@\n     top: 70%;\r\n     left: 700px;\r\n     font-family: Arial;\r\n     font-size: 27px;\r\n-    padding: 20px 50px;\r\n+    padding: 15px 50px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658157757274,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -214,9 +214,9 @@\n }\r\n \r\n .btn__seeconllec {\r\n     position: absolute;\r\n-    top: 70%;\r\n+    top: 75%;\r\n     left: 700px;\r\n     font-family: Arial;\r\n     font-size: 27px;\r\n     padding: 15px 50px;\r\n"
+                },
+                {
+                    "date": 1658158334705,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -219,5 +219,14 @@\n     left: 700px;\r\n     font-family: Arial;\r\n     font-size: 27px;\r\n     padding: 15px 50px;\r\n+}\r\n+\r\n+.txt__conllec {\r\n+    position: absolute;\r\n+    top: 75%;\r\n+    left: 700px;\r\n+    font-family: Arial;\r\n+    font-size: 27px;\r\n+    padding: 15px 50px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658158347027,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -223,9 +223,9 @@\n }\r\n \r\n .txt__conllec {\r\n     position: absolute;\r\n-    top: 75%;\r\n+    top: 70%;\r\n     left: 700px;\r\n     font-family: Arial;\r\n     font-size: 27px;\r\n     padding: 15px 50px;\r\n"
+                },
+                {
+                    "date": 1658158352580,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -223,9 +223,9 @@\n }\r\n \r\n .txt__conllec {\r\n     position: absolute;\r\n-    top: 70%;\r\n+    top: 60%;\r\n     left: 700px;\r\n     font-family: Arial;\r\n     font-size: 27px;\r\n     padding: 15px 50px;\r\n"
+                },
+                {
+                    "date": 1658158361889,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -223,10 +223,10 @@\n }\r\n \r\n .txt__conllec {\r\n     position: absolute;\r\n-    top: 60%;\r\n-    left: 700px;\r\n+    top: 50%;\r\n+    left: 650px;\r\n     font-family: Arial;\r\n     font-size: 27px;\r\n     padding: 15px 50px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658158372534,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -224,8 +224,9 @@\n \r\n .txt__conllec {\r\n     position: absolute;\r\n     top: 50%;\r\n+    color: fff;\r\n     left: 650px;\r\n     font-family: Arial;\r\n     font-size: 27px;\r\n     padding: 15px 50px;\r\n"
+                },
+                {
+                    "date": 1658158447240,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -224,9 +224,9 @@\n \r\n .txt__conllec {\r\n     position: absolute;\r\n     top: 50%;\r\n-    color: fff;\r\n+    color: #000;\r\n     left: 650px;\r\n     font-family: Arial;\r\n     font-size: 27px;\r\n     padding: 15px 50px;\r\n"
+                },
+                {
+                    "date": 1658158484294,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -224,9 +224,9 @@\n \r\n .txt__conllec {\r\n     position: absolute;\r\n     top: 50%;\r\n-    color: #000;\r\n+    color: #fff;\r\n     left: 650px;\r\n     font-family: Arial;\r\n     font-size: 27px;\r\n     padding: 15px 50px;\r\n"
+                },
+                {
+                    "date": 1658158500346,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -226,8 +226,10 @@\n     position: absolute;\r\n     top: 50%;\r\n     color: #fff;\r\n     left: 650px;\r\n-    font-family: Arial;\r\n+    font-family: 'Roboto';\r\n+    font-style: normal;\r\n+    font-weight: 400;\r\n     font-size: 27px;\r\n     padding: 15px 50px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658158514465,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -231,5 +231,8 @@\n     font-style: normal;\r\n     font-weight: 400;\r\n     font-size: 27px;\r\n     padding: 15px 50px;\r\n+    font-size: 26px;\r\n+    line-height: 30px;\r\n+    text-transform: capitalize;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658158521246,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -230,9 +230,8 @@\n     font-family: 'Roboto';\r\n     font-style: normal;\r\n     font-weight: 400;\r\n     font-size: 27px;\r\n-    padding: 15px 50px;\r\n     font-size: 26px;\r\n     line-height: 30px;\r\n     text-transform: capitalize;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658158760383,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -227,11 +227,8 @@\n     top: 50%;\r\n     color: #fff;\r\n     left: 650px;\r\n     font-family: 'Roboto';\r\n-    font-style: normal;\r\n     font-weight: 400;\r\n     font-size: 27px;\r\n-    font-size: 26px;\r\n-    line-height: 30px;\r\n-    text-transform: capitalize;\r\n+    padding: 15px 50px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658159046552,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -216,9 +216,9 @@\n .btn__seeconllec {\r\n     position: absolute;\r\n     top: 75%;\r\n     left: 700px;\r\n-    font-family: Arial;\r\n+    font-family: 'Roboto';\r\n     font-size: 27px;\r\n     padding: 15px 50px;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1658159161478,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -214,9 +214,9 @@\n }\r\n \r\n .btn__seeconllec {\r\n     position: absolute;\r\n-    top: 75%;\r\n+    top: 77%;\r\n     left: 700px;\r\n     font-family: 'Roboto';\r\n     font-size: 27px;\r\n     padding: 15px 50px;\r\n"
+                },
+                {
+                    "date": 1658159172102,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -214,13 +214,13 @@\n }\r\n \r\n .btn__seeconllec {\r\n     position: absolute;\r\n-    top: 77%;\r\n+    top: 80%;\r\n     left: 700px;\r\n     font-family: 'Roboto';\r\n     font-size: 27px;\r\n-    padding: 15px 50px;\r\n+    padding: 10px 50px;\r\n }\r\n \r\n .txt__conllec {\r\n     position: absolute;\r\n"
+                },
+                {
+                    "date": 1658159192024,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -217,9 +217,9 @@\n     position: absolute;\r\n     top: 80%;\r\n     left: 700px;\r\n     font-family: 'Roboto';\r\n-    font-size: 27px;\r\n+    font-size: 29px;\r\n     padding: 10px 50px;\r\n }\r\n \r\n .txt__conllec {\r\n"
+                },
+                {
+                    "date": 1658159204870,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -219,8 +219,10 @@\n     left: 700px;\r\n     font-family: 'Roboto';\r\n     font-size: 29px;\r\n     padding: 10px 50px;\r\n+    text-align: center;\r\n+    text-transform: capitalize;\r\n }\r\n \r\n .txt__conllec {\r\n     position: absolute;\r\n"
+                },
+                {
+                    "date": 1658159216841,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -218,9 +218,9 @@\n     top: 80%;\r\n     left: 700px;\r\n     font-family: 'Roboto';\r\n     font-size: 29px;\r\n-    padding: 10px 50px;\r\n+    padding: 10px 40px;\r\n     text-align: center;\r\n     text-transform: capitalize;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1658159310151,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -218,9 +218,9 @@\n     top: 80%;\r\n     left: 700px;\r\n     font-family: 'Roboto';\r\n     font-size: 29px;\r\n-    padding: 10px 40px;\r\n+    padding: 10px 20px;\r\n     text-align: center;\r\n     text-transform: capitalize;\r\n }\r\n \r\n@@ -232,5 +232,10 @@\n     font-family: 'Roboto';\r\n     font-weight: 400;\r\n     font-size: 27px;\r\n     padding: 15px 50px;\r\n+}\r\n+\r\n+.follow-instagam {\r\n+    width: 1920px;\r\n+    height: 748px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658159327977,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -237,5 +237,6 @@\n \r\n .follow-instagam {\r\n     width: 1920px;\r\n     height: 748px;\r\n+    background: #F1F1F1;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658159343559,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -235,8 +235,9 @@\n     padding: 15px 50px;\r\n }\r\n \r\n .follow-instagam {\r\n+    padding: 10px 0;\r\n     width: 1920px;\r\n     height: 748px;\r\n     background: #F1F1F1;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658159355805,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -235,9 +235,9 @@\n     padding: 15px 50px;\r\n }\r\n \r\n .follow-instagam {\r\n-    padding: 10px 0;\r\n+    padding: 0 20px;\r\n     width: 1920px;\r\n     height: 748px;\r\n     background: #F1F1F1;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658159369160,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -235,9 +235,9 @@\n     padding: 15px 50px;\r\n }\r\n \r\n .follow-instagam {\r\n-    padding: 0 20px;\r\n+    margin-top: 20px;\r\n     width: 1920px;\r\n     height: 748px;\r\n     background: #F1F1F1;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658159464139,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -239,5 +239,9 @@\n     margin-top: 20px;\r\n     width: 1920px;\r\n     height: 748px;\r\n     background: #F1F1F1;\r\n+}\r\n+\r\n+.follow-instagam h1 {\r\n+    text-align: center\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658159480073,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -236,12 +236,12 @@\n }\r\n \r\n .follow-instagam {\r\n     margin-top: 20px;\r\n-    width: 1920px;\r\n+    width: 100%;\r\n     height: 748px;\r\n     background: #F1F1F1;\r\n }\r\n \r\n .follow-instagam h1 {\r\n-    text-align: center\r\n+    text-align: center;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658159503576,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -242,6 +242,7 @@\n     background: #F1F1F1;\r\n }\r\n \r\n .follow-instagam h1 {\r\n+    margin-top: 50px;\r\n     text-align: center;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658159516536,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -242,7 +242,7 @@\n     background: #F1F1F1;\r\n }\r\n \r\n .follow-instagam h1 {\r\n-    margin-top: 50px;\r\n+    padding-top: 50px;\r\n     text-align: center;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658159531951,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -242,7 +242,10 @@\n     background: #F1F1F1;\r\n }\r\n \r\n .follow-instagam h1 {\r\n+    font-family: 'Roboto';\r\n+    font-weight: 400;\r\n+    font-size: 27px;\r\n     padding-top: 50px;\r\n     text-align: center;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658159537346,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -243,9 +243,9 @@\n }\r\n \r\n .follow-instagam h1 {\r\n     font-family: 'Roboto';\r\n-    font-weight: 400;\r\n+    font-weight: 900;\r\n     font-size: 27px;\r\n     padding-top: 50px;\r\n     text-align: center;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658159542730,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -244,8 +244,8 @@\n \r\n .follow-instagam h1 {\r\n     font-family: 'Roboto';\r\n     font-weight: 900;\r\n-    font-size: 27px;\r\n+    font-size: 50px;\r\n     padding-top: 50px;\r\n     text-align: center;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658159551216,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -244,8 +244,8 @@\n \r\n .follow-instagam h1 {\r\n     font-family: 'Roboto';\r\n     font-weight: 900;\r\n-    font-size: 50px;\r\n+    font-size: 40px;\r\n     padding-top: 50px;\r\n     text-align: center;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658159564093,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -242,8 +242,10 @@\n     background: #F1F1F1;\r\n }\r\n \r\n .follow-instagam h1 {\r\n+    letter-spacing: 0.1em;\r\n+    text-transform: capitalize;\r\n     font-family: 'Roboto';\r\n     font-weight: 900;\r\n     font-size: 40px;\r\n     padding-top: 50px;\r\n"
+                },
+                {
+                    "date": 1658159631676,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -235,9 +235,9 @@\n     padding: 15px 50px;\r\n }\r\n \r\n .follow-instagam {\r\n-    margin-top: 20px;\r\n+    margin-top: 50px;\r\n     width: 100%;\r\n     height: 748px;\r\n     background: #F1F1F1;\r\n }\r\n"
+                },
+                {
+                    "date": 1658159639139,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -235,9 +235,9 @@\n     padding: 15px 50px;\r\n }\r\n \r\n .follow-instagam {\r\n-    margin-top: 50px;\r\n+    margin-top: 100px;\r\n     width: 100%;\r\n     height: 748px;\r\n     background: #F1F1F1;\r\n }\r\n"
+                },
+                {
+                    "date": 1658160043656,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -249,5 +249,8 @@\n     font-weight: 900;\r\n     font-size: 40px;\r\n     padding-top: 50px;\r\n     text-align: center;\r\n-}\n\\ No newline at end of file\n+}\r\n+\r\n+\r\n+/* Instagram */\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658160064174,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -252,5 +252,9 @@\n     text-align: center;\r\n }\r\n \r\n \r\n-/* Instagram */\n\\ No newline at end of file\n+/* Instagram */\r\n+\r\n+.instagram__images {\r\n+    display: flex;\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658160081909,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -254,7 +254,9 @@\n \r\n \r\n /* Instagram */\r\n \r\n+.instagram__images {}\r\n+\r\n .instagram__images {\r\n     display: flex;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658160174937,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -254,9 +254,11 @@\n \r\n \r\n /* Instagram */\r\n \r\n-.instagram__images {}\r\n+.instagram__images img {\r\n+    margin-top: 50px;\r\n+}\r\n \r\n .instagram__images {\r\n     display: flex;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658160185710,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -255,9 +255,9 @@\n \r\n /* Instagram */\r\n \r\n .instagram__images img {\r\n-    margin-top: 50px;\r\n+    margin-top: 80px;\r\n }\r\n \r\n .instagram__images {\r\n     display: flex;\r\n"
+                },
+                {
+                    "date": 1658160191749,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -255,9 +255,9 @@\n \r\n /* Instagram */\r\n \r\n .instagram__images img {\r\n-    margin-top: 80px;\r\n+    margin-top: 120px;\r\n }\r\n \r\n .instagram__images {\r\n     display: flex;\r\n"
+                },
+                {
+                    "date": 1658160202101,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -255,9 +255,9 @@\n \r\n /* Instagram */\r\n \r\n .instagram__images img {\r\n-    margin-top: 120px;\r\n+    margin-top: 100px;\r\n }\r\n \r\n .instagram__images {\r\n     display: flex;\r\n"
+                },
+                {
+                    "date": 1658160211980,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -237,9 +237,9 @@\n \r\n .follow-instagam {\r\n     margin-top: 100px;\r\n     width: 100%;\r\n-    height: 748px;\r\n+    height: 7600px;\r\n     background: #F1F1F1;\r\n }\r\n \r\n .follow-instagam h1 {\r\n"
+                },
+                {
+                    "date": 1658160220789,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -237,9 +237,9 @@\n \r\n .follow-instagam {\r\n     margin-top: 100px;\r\n     width: 100%;\r\n-    height: 7600px;\r\n+    height: 500px;\r\n     background: #F1F1F1;\r\n }\r\n \r\n .follow-instagam h1 {\r\n"
+                },
+                {
+                    "date": 1658160228020,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -255,9 +255,9 @@\n \r\n /* Instagram */\r\n \r\n .instagram__images img {\r\n-    margin-top: 100px;\r\n+    margin-top: 50px;\r\n }\r\n \r\n .instagram__images {\r\n     display: flex;\r\n"
+                },
+                {
+                    "date": 1658160239414,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -256,8 +256,9 @@\n /* Instagram */\r\n \r\n .instagram__images img {\r\n     margin-top: 50px;\r\n+    padding: 0 10px;\r\n }\r\n \r\n .instagram__images {\r\n     display: flex;\r\n"
+                },
+                {
+                    "date": 1658160283526,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -237,9 +237,9 @@\n \r\n .follow-instagam {\r\n     margin-top: 100px;\r\n     width: 100%;\r\n-    height: 500px;\r\n+    height: 700px;\r\n     background: #F1F1F1;\r\n }\r\n \r\n .follow-instagam h1 {\r\n"
+                },
+                {
+                    "date": 1658160813959,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -261,5 +261,9 @@\n }\r\n \r\n .instagram__images {\r\n     display: flex;\r\n+}\r\n+\r\n+.input-group {\r\n+    text-align: center\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658160825509,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -264,6 +264,6 @@\n     display: flex;\r\n }\r\n \r\n .input-group {\r\n-    text-align: center\r\n+    padding: 300px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658160834352,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -264,6 +264,6 @@\n     display: flex;\r\n }\r\n \r\n .input-group {\r\n-    padding: 300px;\r\n+    padding: 200px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658160840120,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -264,6 +264,6 @@\n     display: flex;\r\n }\r\n \r\n .input-group {\r\n-    padding: 200px;\r\n+    padding: 200px 100px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658160853402,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -264,6 +264,6 @@\n     display: flex;\r\n }\r\n \r\n .input-group {\r\n-    padding: 200px 100px;\r\n+    padding: 100px 100px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658160860641,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -264,6 +264,6 @@\n     display: flex;\r\n }\r\n \r\n .input-group {\r\n-    padding: 100px 100px;\r\n+    padding: 90px 100px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658160871926,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -265,5 +265,6 @@\n }\r\n \r\n .input-group {\r\n     padding: 90px 100px;\r\n+    width: 500px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658160877254,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -265,6 +265,5 @@\n }\r\n \r\n .input-group {\r\n     padding: 90px 100px;\r\n-    width: 500px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658160889557,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -265,5 +265,9 @@\n }\r\n \r\n .input-group {\r\n     padding: 90px 100px;\r\n+}\r\n+\r\n+.input {\r\n+    width: 500px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658161782890,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -263,11 +263,7 @@\n .instagram__images {\r\n     display: flex;\r\n }\r\n \r\n-.input-group {\r\n-    padding: 90px 100px;\r\n-}\r\n-\r\n-.input {\r\n-    width: 500px;\r\n+.form-input {\r\n+    border: 0;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658161802343,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -265,5 +265,6 @@\n }\r\n \r\n .form-input {\r\n     border: 0;\r\n+    position: absolute;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658161818127,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -265,6 +265,6 @@\n }\r\n \r\n .form-input {\r\n     border: 0;\r\n-    position: absolute;\r\n+    margin-left: 400px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658161829788,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -265,6 +265,7 @@\n }\r\n \r\n .form-input {\r\n     border: 0;\r\n+    margin-top: 400px;\r\n     margin-left: 400px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658161836295,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -265,7 +265,7 @@\n }\r\n \r\n .form-input {\r\n     border: 0;\r\n-    margin-top: 400px;\r\n+    margin-top: 50px;\r\n     margin-left: 400px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658161842700,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -265,7 +265,6 @@\n }\r\n \r\n .form-input {\r\n     border: 0;\r\n-    margin-top: 50px;\r\n     margin-left: 400px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658161855417,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -265,6 +265,7 @@\n }\r\n \r\n .form-input {\r\n     border: 0;\r\n+    padding-top: 20px;\r\n     margin-left: 400px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658161869152,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -266,6 +266,7 @@\n \r\n .form-input {\r\n     border: 0;\r\n     padding-top: 20px;\r\n+    padding-right: 20px;\r\n     margin-left: 400px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658161875842,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -266,7 +266,7 @@\n \r\n .form-input {\r\n     border: 0;\r\n     padding-top: 20px;\r\n-    padding-right: 20px;\r\n+    padding-right: 100px;\r\n     margin-left: 400px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658161882327,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -266,7 +266,7 @@\n \r\n .form-input {\r\n     border: 0;\r\n     padding-top: 20px;\r\n-    padding-right: 100px;\r\n+    padding-right: 500px;\r\n     margin-left: 400px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658161926326,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -268,5 +268,9 @@\n     border: 0;\r\n     padding-top: 20px;\r\n     padding-right: 500px;\r\n     margin-left: 400px;\r\n+}\r\n+\r\n+#btn__button {\r\n+    border: 0;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658161957834,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -270,7 +270,7 @@\n     padding-right: 500px;\r\n     margin-left: 400px;\r\n }\r\n \r\n-#btn__button {\r\n+#btn__button button {\r\n     border: 0;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658161964212,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -270,7 +270,7 @@\n     padding-right: 500px;\r\n     margin-left: 400px;\r\n }\r\n \r\n-#btn__button button {\r\n+button {\r\n     border: 0;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658161975874,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -270,7 +270,7 @@\n     padding-right: 500px;\r\n     margin-left: 400px;\r\n }\r\n \r\n-button {\r\n-    border: 0;\r\n+#btn__button button {\r\n+    border: 1px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658161994556,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -272,5 +272,6 @@\n }\r\n \r\n #btn__button button {\r\n     border: 1px;\r\n+    color: #F1F1F1;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658162224137,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -264,8 +264,10 @@\n     display: flex;\r\n }\r\n \r\n .form-input {\r\n+    color: #F1F1F1;\r\n+    ;\r\n     border: 0;\r\n     padding-top: 20px;\r\n     padding-right: 500px;\r\n     margin-left: 400px;\r\n"
+                },
+                {
+                    "date": 1658162229343,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -265,9 +265,8 @@\n }\r\n \r\n .form-input {\r\n     color: #F1F1F1;\r\n-    ;\r\n     border: 0;\r\n     padding-top: 20px;\r\n     padding-right: 500px;\r\n     margin-left: 400px;\r\n"
+                },
+                {
+                    "date": 1658162346756,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -263,9 +263,9 @@\n .instagram__images {\r\n     display: flex;\r\n }\r\n \r\n-.form-input {\r\n+.input__email {\r\n     color: #F1F1F1;\r\n     border: 0;\r\n     padding-top: 20px;\r\n     padding-right: 500px;\r\n"
+                },
+                {
+                    "date": 1658162366133,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -264,9 +264,9 @@\n     display: flex;\r\n }\r\n \r\n .input__email {\r\n-    color: #F1F1F1;\r\n+    color: #000;\r\n     border: 0;\r\n     padding-top: 20px;\r\n     padding-right: 500px;\r\n     margin-left: 400px;\r\n"
+                },
+                {
+                    "date": 1658162383834,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -265,8 +265,9 @@\n }\r\n \r\n .input__email {\r\n     color: #000;\r\n+    font-size: 30px;\r\n     border: 0;\r\n     padding-top: 20px;\r\n     padding-right: 500px;\r\n     margin-left: 400px;\r\n"
+                },
+                {
+                    "date": 1658162393008,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -265,9 +265,8 @@\n }\r\n \r\n .input__email {\r\n     color: #000;\r\n-    font-size: 30px;\r\n     border: 0;\r\n     padding-top: 20px;\r\n     padding-right: 500px;\r\n     margin-left: 400px;\r\n"
+                },
+                {
+                    "date": 1658162403506,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -266,9 +266,9 @@\n \r\n .input__email {\r\n     color: #000;\r\n     border: 0;\r\n-    padding-top: 20px;\r\n+    padding-top: 50px;\r\n     padding-right: 500px;\r\n     margin-left: 400px;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1658162418317,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -266,9 +266,10 @@\n \r\n .input__email {\r\n     color: #000;\r\n     border: 0;\r\n-    padding-top: 50px;\r\n+    margin-top: 100px;\r\n+    padding-top: 20px;\r\n     padding-right: 500px;\r\n     margin-left: 400px;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1658162436620,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -266,9 +266,9 @@\n \r\n .input__email {\r\n     color: #000;\r\n     border: 0;\r\n-    margin-top: 100px;\r\n+    margin-top: 50px;\r\n     padding-top: 20px;\r\n     padding-right: 500px;\r\n     margin-left: 400px;\r\n }\r\n"
+                },
+                {
+                    "date": 1658162446798,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -273,7 +273,7 @@\n     margin-left: 400px;\r\n }\r\n \r\n #btn__button button {\r\n-    border: 1px;\r\n+    v border: 1px;\r\n     color: #F1F1F1;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658162452879,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -273,7 +273,8 @@\n     margin-left: 400px;\r\n }\r\n \r\n #btn__button button {\r\n-    v border: 1px;\r\n+    margin-top: 50px;\r\n+    border: 1px;\r\n     color: #F1F1F1;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658162467452,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -273,8 +273,8 @@\n     margin-left: 400px;\r\n }\r\n \r\n #btn__button button {\r\n-    margin-top: 50px;\r\n+    height: 50px;\r\n     border: 1px;\r\n     color: #F1F1F1;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658162513362,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -265,16 +265,15 @@\n }\r\n \r\n .input__email {\r\n     color: #000;\r\n-    border: 0;\r\n+    border-bottom: 0;\r\n     margin-top: 50px;\r\n     padding-top: 20px;\r\n     padding-right: 500px;\r\n     margin-left: 400px;\r\n }\r\n \r\n #btn__button button {\r\n-    height: 50px;\r\n     border: 1px;\r\n     color: #F1F1F1;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658162520042,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -265,9 +265,9 @@\n }\r\n \r\n .input__email {\r\n     color: #000;\r\n-    border-bottom: 0;\r\n+    border-bottom: 1;\r\n     margin-top: 50px;\r\n     padding-top: 20px;\r\n     padding-right: 500px;\r\n     margin-left: 400px;\r\n"
+                },
+                {
+                    "date": 1658162525197,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -265,9 +265,9 @@\n }\r\n \r\n .input__email {\r\n     color: #000;\r\n-    border-bottom: 1;\r\n+    border-bottom: 2;\r\n     margin-top: 50px;\r\n     padding-top: 20px;\r\n     padding-right: 500px;\r\n     margin-left: 400px;\r\n"
+                },
+                {
+                    "date": 1658162535122,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -265,9 +265,9 @@\n }\r\n \r\n .input__email {\r\n     color: #000;\r\n-    border-bottom: 2;\r\n+    border-bottom: 2px 0 2px 0;\r\n     margin-top: 50px;\r\n     padding-top: 20px;\r\n     padding-right: 500px;\r\n     margin-left: 400px;\r\n"
+                },
+                {
+                    "date": 1658162542204,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -265,10 +265,8 @@\n }\r\n \r\n .input__email {\r\n     color: #000;\r\n-    border-bottom: 2px 0 2px 0;\r\n-    margin-top: 50px;\r\n     padding-top: 20px;\r\n     padding-right: 500px;\r\n     margin-left: 400px;\r\n }\r\n"
+                },
+                {
+                    "date": 1658162564168,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -263,8 +263,12 @@\n .instagram__images {\r\n     display: flex;\r\n }\r\n \r\n+.input-group {\r\n+    margin-top: 50px;\r\n+}\r\n+\r\n .input__email {\r\n     color: #000;\r\n     padding-top: 20px;\r\n     padding-right: 500px;\r\n"
+                },
+                {
+                    "date": 1658162574077,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -265,8 +265,9 @@\n }\r\n \r\n .input-group {\r\n     margin-top: 50px;\r\n+    border: 0;\r\n }\r\n \r\n .input__email {\r\n     color: #000;\r\n"
+                },
+                {
+                    "date": 1658162586893,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -265,18 +265,19 @@\n }\r\n \r\n .input-group {\r\n     margin-top: 50px;\r\n-    border: 0;\r\n }\r\n \r\n .input__email {\r\n     color: #000;\r\n+    border: 0;\r\n     padding-top: 20px;\r\n     padding-right: 500px;\r\n     margin-left: 400px;\r\n }\r\n \r\n #btn__button button {\r\n+    border: 0;\r\n     border: 1px;\r\n     color: #F1F1F1;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658162610228,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -275,9 +275,8 @@\n     padding-right: 500px;\r\n     margin-left: 400px;\r\n }\r\n \r\n-#btn__button button {\r\n+#btn__button {\r\n     border: 0;\r\n-    border: 1px;\r\n     color: #F1F1F1;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658162621351,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -276,7 +276,7 @@\n     margin-left: 400px;\r\n }\r\n \r\n #btn__button {\r\n-    border: 0;\r\n+    border: 1;\r\n     color: #F1F1F1;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658162632672,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -277,6 +277,6 @@\n }\r\n \r\n #btn__button {\r\n     border: 1;\r\n-    color: #F1F1F1;\r\n+    color: #000;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658162646726,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -265,8 +265,9 @@\n }\r\n \r\n .input-group {\r\n     margin-top: 50px;\r\n+    color: #fff\r\n }\r\n \r\n .input__email {\r\n     color: #000;\r\n@@ -276,7 +277,7 @@\n     margin-left: 400px;\r\n }\r\n \r\n #btn__button {\r\n-    border: 1;\r\n+    border: 0;\r\n     color: #000;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658162653536,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -265,9 +265,9 @@\n }\r\n \r\n .input-group {\r\n     margin-top: 50px;\r\n-    color: #fff\r\n+    color: #f1f1f1;\r\n }\r\n \r\n .input__email {\r\n     color: #000;\r\n"
+                },
+                {
+                    "date": 1658162673524,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -265,13 +265,11 @@\n }\r\n \r\n .input-group {\r\n     margin-top: 50px;\r\n-    color: #f1f1f1;\r\n-}\r\n-\r\n-.input__email {\r\n-    color: #000;\r\n+    .input__email {\r\n+        color: #f1f1f1;\r\n+    }\r\n     border: 0;\r\n     padding-top: 20px;\r\n     padding-right: 500px;\r\n     margin-left: 400px;\r\n"
+                },
+                {
+                    "date": 1658162681470,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-::root {\r\n+    ::root {\r\n     --color-primary: #0B0B0B;\r\n     --color-secondary: #1E2832;\r\n     --font-primary: 'Roboto', sans-serif;\r\n }\r\n@@ -267,15 +267,13 @@\n .input-group {\r\n     margin-top: 50px;\r\n     .input__email {\r\n         color: #f1f1f1;\r\n+        border: 0;\r\n+        padding-top: 20px;\r\n+        padding-right: 500px;\r\n+        margin-left: 400px;\r\n     }\r\n-    border: 0;\r\n-    padding-top: 20px;\r\n-    padding-right: 500px;\r\n-    margin-left: 400px;\r\n-}\r\n-\r\n\\ No newline at end of file\n-#btn__button {\r\n-    border: 0;\r\n-    color: #000;\r\n-}\n+    #btn__button {\r\n+        border: 0;\r\n+        color: #000;\r\n+    }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658162688588,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,279 +1,259 @@\n-    ::root {\r\n-    --color-primary: #0B0B0B;\r\n-    --color-secondary: #1E2832;\r\n-    --font-primary: 'Roboto', sans-serif;\r\n-}\r\n-\r\n-.header-wrapper {\r\n-    background: #F1F1F1;\r\n-}\r\n-\r\n-body {\r\n-    font-family: var(--font-primary);\r\n-}\r\n-\r\n-\r\n-/* == Main Menu == */\r\n-\r\n-.main-menu .navbar-nav .nav-link {\r\n-    padding: 20px 20px;\r\n-}\r\n-\r\n-\r\n-/* LOGO */\r\n-\r\n-.logo {\r\n-    position: absolute;\r\n-    transform: translateX(-50%);\r\n-    left: 50%;\r\n-}\r\n-\r\n-\r\n-/* BANNER TITLE */\r\n-\r\n-.brands {\r\n-    padding: 50px 0;\r\n-}\r\n-\r\n-.banner {\r\n-    padding: 50px 0;\r\n-}\r\n-\r\n-.banner__title {\r\n-    font-size: 74px;\r\n-    line-height: 55px;\r\n-}\r\n-\r\n-.banner__discription {\r\n-    font-weight: 400;\r\n-    font-size: 30px;\r\n-    line-height: 55px;\r\n-    text-transform: capitalize;\r\n-}\r\n-\r\n-.btn {\r\n-    border-radius: 0;\r\n-}\r\n-\r\n-\r\n-/* ===Account=== */\r\n-\r\n-.account__link {\r\n-    display: inline-block;\r\n-    margin: 0 10px;\r\n-    color: var(--color-primary);\r\n-}\r\n-\r\n-\r\n-/*==FEATURE PRODUCT==*/\r\n-\r\n-.feature-product .container {\r\n-    position: relative;\r\n-}\r\n-\r\n-.feature-product-explore {\r\n-    text-transform: uppercase;\r\n-    font-family: 'Roboto';\r\n-    font-weight: 400;\r\n-    font-size: 34px;\r\n-    line-height: 40px;\r\n-    position: absolute;\r\n-    top: 45%;\r\n-    left: -300px;\r\n-    transform: rotate(-90deg);\r\n-    z-index: 1;\r\n-}\r\n-\r\n-\r\n-/* ===PRODUCT ITEM ===*/\r\n-\r\n-.product-image {\r\n-    position: relative;\r\n-    overflow: hidden;\r\n-    margin-bottom: 23px;\r\n-}\r\n-\r\n-.product-image:hover .product__info {\r\n-    bottom: 0;\r\n-}\r\n-\r\n-.product__info {\r\n-    position: absolute;\r\n-    bottom: -100%;\r\n-    left: 0;\r\n-    right: 0;\r\n-    background: black;\r\n-    color: #fff;\r\n-    transition: ease-in-out 0.3s;\r\n-}\r\n-\r\n-.product__name {\r\n-    font-size: 16px;\r\n-    font-weight: 600;\r\n-    text-decoration: none;\r\n-    color: #000;\r\n-}\r\n-\r\n-.product-meta {\r\n-    padding: 10px 0;\r\n-}\r\n-\r\n-.product__category {\r\n-    font-size: 16px;\r\n-    color: #777;\r\n-    text-decoration: none;\r\n-}\r\n-\r\n-.product__price {\r\n-    font-size: 16px;\r\n-}\r\n-\r\n-.product__price--old {\r\n-    text-decoration: line-through;\r\n-    margin-right: 10px;\r\n-    color: #777777\r\n-}\r\n-\r\n-.product__price--new {\r\n-    color: #FF6F61;\r\n-}\r\n-\r\n-.product__sale {\r\n-    position: absolute;\r\n-    top: 20px;\r\n-    left: 0;\r\n-    background: #000;\r\n-    color: #fff;\r\n-    padding: 3px 10px;\r\n-}\r\n-\r\n-.product__hot {\r\n-    position: absolute;\r\n-    top: 20px;\r\n-    left: 0;\r\n-    background: red;\r\n-    color: #fff;\r\n-    padding: 3px 10px;\r\n-}\r\n-\r\n-\r\n-/* ==SECTION COMMON== */\r\n-\r\n-.section-header {\r\n-    padding: 30px 0;\r\n-}\r\n-\r\n-.section-header__title {\r\n-    font-family: 'Roboto';\r\n-    font-style: normal;\r\n-    font-weight: 500;\r\n-    font-size: 45px;\r\n-    line-height: 53px;\r\n-    text-align: center;\r\n-}\r\n-\r\n-\r\n-/* ==BLOCK FILTER== */\r\n-\r\n-.block-filter {\r\n-    padding: 15px 0;\r\n-}\r\n-\r\n-.block-filter__link {\r\n-    color: #777;\r\n-}\r\n-\r\n-.block-filter__item:first-child .block-filter__link {\r\n-    padding-left: 0;\r\n-}\r\n-\r\n-.block-filter__link--active {\r\n-    color: #000\r\n-}\r\n-\r\n-\r\n-/* ==brand-banner== */\r\n-\r\n-.brand-banner {\r\n-    width: 100%;\r\n-    height: 776px;\r\n-    position: relative;\r\n-    background-image: url(\"./upload/collection/4.png\");\r\n-}\r\n-\r\n-.div1 {\r\n-    position: absolute;\r\n-    top: 33%;\r\n-    left: 700px;\r\n-}\r\n-\r\n-.div2 {\r\n-    position: absolute;\r\n-    top: 5%;\r\n-    right: 0;\r\n-}\r\n-\r\n-.btn__seeconllec {\r\n-    position: absolute;\r\n-    top: 80%;\r\n-    left: 700px;\r\n-    font-family: 'Roboto';\r\n-    font-size: 29px;\r\n-    padding: 10px 20px;\r\n-    text-align: center;\r\n-    text-transform: capitalize;\r\n-}\r\n-\r\n-.txt__conllec {\r\n-    position: absolute;\r\n-    top: 50%;\r\n-    color: #fff;\r\n-    left: 650px;\r\n-    font-family: 'Roboto';\r\n-    font-weight: 400;\r\n-    font-size: 27px;\r\n-    padding: 15px 50px;\r\n-}\r\n-\r\n-.follow-instagam {\r\n-    margin-top: 100px;\r\n-    width: 100%;\r\n-    height: 700px;\r\n-    background: #F1F1F1;\r\n-}\r\n-\r\n-.follow-instagam h1 {\r\n-    letter-spacing: 0.1em;\r\n-    text-transform: capitalize;\r\n-    font-family: 'Roboto';\r\n-    font-weight: 900;\r\n-    font-size: 40px;\r\n-    padding-top: 50px;\r\n-    text-align: center;\r\n-}\r\n-\r\n-\r\n-/* Instagram */\r\n-\r\n-.instagram__images img {\r\n-    margin-top: 50px;\r\n-    padding: 0 10px;\r\n-}\r\n-\r\n-.instagram__images {\r\n-    display: flex;\r\n-}\r\n-\r\n-.input-group {\r\n-    margin-top: 50px;\r\n-    .input__email {\r\n-        color: #f1f1f1;\r\n-        border: 0;\r\n-        padding-top: 20px;\r\n-        padding-right: 500px;\r\n-        margin-left: 400px;\r\n+         ::root {\r\n+        --color-primary: #0B0B0B;\r\n+        --color-secondary: #1E2832;\r\n+        --font-primary: 'Roboto', sans-serif;\r\n     }\r\n\\ No newline at end of file\n-    #btn__button {\r\n-        border: 0;\r\n+    \r\n+    .header-wrapper {\r\n+        background: #F1F1F1;\r\n+    }\r\n+    \r\n+    body {\r\n+        font-family: var(--font-primary);\r\n+    }\r\n+    /* == Main Menu == */\r\n+    \r\n+    .main-menu .navbar-nav .nav-link {\r\n+        padding: 20px 20px;\r\n+    }\r\n+    /* LOGO */\r\n+    \r\n+    .logo {\r\n+        position: absolute;\r\n+        transform: translateX(-50%);\r\n+        left: 50%;\r\n+    }\r\n+    /* BANNER TITLE */\r\n+    \r\n+    .brands {\r\n+        padding: 50px 0;\r\n+    }\r\n+    \r\n+    .banner {\r\n+        padding: 50px 0;\r\n+    }\r\n+    \r\n+    .banner__title {\r\n+        font-size: 74px;\r\n+        line-height: 55px;\r\n+    }\r\n+    \r\n+    .banner__discription {\r\n+        font-weight: 400;\r\n+        font-size: 30px;\r\n+        line-height: 55px;\r\n+        text-transform: capitalize;\r\n+    }\r\n+    \r\n+    .btn {\r\n+        border-radius: 0;\r\n+    }\r\n+    /* ===Account=== */\r\n+    \r\n+    .account__link {\r\n+        display: inline-block;\r\n+        margin: 0 10px;\r\n+        color: var(--color-primary);\r\n+    }\r\n+    /*==FEATURE PRODUCT==*/\r\n+    \r\n+    .feature-product .container {\r\n+        position: relative;\r\n+    }\r\n+    \r\n+    .feature-product-explore {\r\n+        text-transform: uppercase;\r\n+        font-family: 'Roboto';\r\n+        font-weight: 400;\r\n+        font-size: 34px;\r\n+        line-height: 40px;\r\n+        position: absolute;\r\n+        top: 45%;\r\n+        left: -300px;\r\n+        transform: rotate(-90deg);\r\n+        z-index: 1;\r\n+    }\r\n+    /* ===PRODUCT ITEM ===*/\r\n+    \r\n+    .product-image {\r\n+        position: relative;\r\n+        overflow: hidden;\r\n+        margin-bottom: 23px;\r\n+    }\r\n+    \r\n+    .product-image:hover .product__info {\r\n+        bottom: 0;\r\n+    }\r\n+    \r\n+    .product__info {\r\n+        position: absolute;\r\n+        bottom: -100%;\r\n+        left: 0;\r\n+        right: 0;\r\n+        background: black;\r\n+        color: #fff;\r\n+        transition: ease-in-out 0.3s;\r\n+    }\r\n+    \r\n+    .product__name {\r\n+        font-size: 16px;\r\n+        font-weight: 600;\r\n+        text-decoration: none;\r\n         color: #000;\r\n-    }\n+    }\r\n+    \r\n+    .product-meta {\r\n+        padding: 10px 0;\r\n+    }\r\n+    \r\n+    .product__category {\r\n+        font-size: 16px;\r\n+        color: #777;\r\n+        text-decoration: none;\r\n+    }\r\n+    \r\n+    .product__price {\r\n+        font-size: 16px;\r\n+    }\r\n+    \r\n+    .product__price--old {\r\n+        text-decoration: line-through;\r\n+        margin-right: 10px;\r\n+        color: #777777\r\n+    }\r\n+    \r\n+    .product__price--new {\r\n+        color: #FF6F61;\r\n+    }\r\n+    \r\n+    .product__sale {\r\n+        position: absolute;\r\n+        top: 20px;\r\n+        left: 0;\r\n+        background: #000;\r\n+        color: #fff;\r\n+        padding: 3px 10px;\r\n+    }\r\n+    \r\n+    .product__hot {\r\n+        position: absolute;\r\n+        top: 20px;\r\n+        left: 0;\r\n+        background: red;\r\n+        color: #fff;\r\n+        padding: 3px 10px;\r\n+    }\r\n+    /* ==SECTION COMMON== */\r\n+    \r\n+    .section-header {\r\n+        padding: 30px 0;\r\n+    }\r\n+    \r\n+    .section-header__title {\r\n+        font-family: 'Roboto';\r\n+        font-style: normal;\r\n+        font-weight: 500;\r\n+        font-size: 45px;\r\n+        line-height: 53px;\r\n+        text-align: center;\r\n+    }\r\n+    /* ==BLOCK FILTER== */\r\n+    \r\n+    .block-filter {\r\n+        padding: 15px 0;\r\n+    }\r\n+    \r\n+    .block-filter__link {\r\n+        color: #777;\r\n+    }\r\n+    \r\n+    .block-filter__item:first-child .block-filter__link {\r\n+        padding-left: 0;\r\n+    }\r\n+    \r\n+    .block-filter__link--active {\r\n+        color: #000\r\n+    }\r\n+    /* ==brand-banner== */\r\n+    \r\n+    .brand-banner {\r\n+        width: 100%;\r\n+        height: 776px;\r\n+        position: relative;\r\n+        background-image: url(\"./upload/collection/4.png\");\r\n+    }\r\n+    \r\n+    .div1 {\r\n+        position: absolute;\r\n+        top: 33%;\r\n+        left: 700px;\r\n+    }\r\n+    \r\n+    .div2 {\r\n+        position: absolute;\r\n+        top: 5%;\r\n+        right: 0;\r\n+    }\r\n+    \r\n+    .btn__seeconllec {\r\n+        position: absolute;\r\n+        top: 80%;\r\n+        left: 700px;\r\n+        font-family: 'Roboto';\r\n+        font-size: 29px;\r\n+        padding: 10px 20px;\r\n+        text-align: center;\r\n+        text-transform: capitalize;\r\n+    }\r\n+    \r\n+    .txt__conllec {\r\n+        position: absolute;\r\n+        top: 50%;\r\n+        color: #fff;\r\n+        left: 650px;\r\n+        font-family: 'Roboto';\r\n+        font-weight: 400;\r\n+        font-size: 27px;\r\n+        padding: 15px 50px;\r\n+    }\r\n+    \r\n+    .follow-instagam {\r\n+        margin-top: 100px;\r\n+        width: 100%;\r\n+        height: 700px;\r\n+        background: #F1F1F1;\r\n+    }\r\n+    \r\n+    .follow-instagam h1 {\r\n+        letter-spacing: 0.1em;\r\n+        text-transform: capitalize;\r\n+        font-family: 'Roboto';\r\n+        font-weight: 900;\r\n+        font-size: 40px;\r\n+        padding-top: 50px;\r\n+        text-align: center;\r\n+    }\r\n+    /* Instagram */\r\n+    \r\n+    .instagram__images img {\r\n+        margin-top: 50px;\r\n+        padding: 0 10px;\r\n+    }\r\n+    \r\n+    .instagram__images {\r\n+        display: flex;\r\n+    }\r\n+    \r\n+    .input-group {\r\n+        margin-top: 50px;\r\n+        .input__email {\r\n+            color: #f1f1f1;\r\n+            border: 0;\r\n+            padding-top: 20px;\r\n+            padding-right: 500px;\r\n+            margin-left: 400px;\r\n+        }\r\n+        #btn__button {\r\n+            border: 0;\r\n+            color: #000;\r\n+        }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658162704923,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,259 +1,282 @@\n-         ::root {\r\n-        --color-primary: #0B0B0B;\r\n-        --color-secondary: #1E2832;\r\n-        --font-primary: 'Roboto', sans-serif;\r\n-    }\r\n-    \r\n-    .header-wrapper {\r\n-        background: #F1F1F1;\r\n-    }\r\n-    \r\n-    body {\r\n-        font-family: var(--font-primary);\r\n-    }\r\n-    /* == Main Menu == */\r\n-    \r\n-    .main-menu .navbar-nav .nav-link {\r\n-        padding: 20px 20px;\r\n-    }\r\n-    /* LOGO */\r\n-    \r\n-    .logo {\r\n-        position: absolute;\r\n-        transform: translateX(-50%);\r\n-        left: 50%;\r\n-    }\r\n-    /* BANNER TITLE */\r\n-    \r\n-    .brands {\r\n-        padding: 50px 0;\r\n-    }\r\n-    \r\n-    .banner {\r\n-        padding: 50px 0;\r\n-    }\r\n-    \r\n-    .banner__title {\r\n-        font-size: 74px;\r\n-        line-height: 55px;\r\n-    }\r\n-    \r\n-    .banner__discription {\r\n-        font-weight: 400;\r\n-        font-size: 30px;\r\n-        line-height: 55px;\r\n-        text-transform: capitalize;\r\n-    }\r\n-    \r\n-    .btn {\r\n-        border-radius: 0;\r\n-    }\r\n-    /* ===Account=== */\r\n-    \r\n-    .account__link {\r\n-        display: inline-block;\r\n-        margin: 0 10px;\r\n-        color: var(--color-primary);\r\n-    }\r\n-    /*==FEATURE PRODUCT==*/\r\n-    \r\n-    .feature-product .container {\r\n-        position: relative;\r\n-    }\r\n-    \r\n-    .feature-product-explore {\r\n-        text-transform: uppercase;\r\n-        font-family: 'Roboto';\r\n-        font-weight: 400;\r\n-        font-size: 34px;\r\n-        line-height: 40px;\r\n-        position: absolute;\r\n-        top: 45%;\r\n-        left: -300px;\r\n-        transform: rotate(-90deg);\r\n-        z-index: 1;\r\n-    }\r\n-    /* ===PRODUCT ITEM ===*/\r\n-    \r\n-    .product-image {\r\n-        position: relative;\r\n-        overflow: hidden;\r\n-        margin-bottom: 23px;\r\n-    }\r\n-    \r\n-    .product-image:hover .product__info {\r\n-        bottom: 0;\r\n-    }\r\n-    \r\n-    .product__info {\r\n-        position: absolute;\r\n-        bottom: -100%;\r\n-        left: 0;\r\n-        right: 0;\r\n-        background: black;\r\n-        color: #fff;\r\n-        transition: ease-in-out 0.3s;\r\n-    }\r\n-    \r\n-    .product__name {\r\n-        font-size: 16px;\r\n-        font-weight: 600;\r\n-        text-decoration: none;\r\n-        color: #000;\r\n-    }\r\n-    \r\n-    .product-meta {\r\n-        padding: 10px 0;\r\n-    }\r\n-    \r\n-    .product__category {\r\n-        font-size: 16px;\r\n-        color: #777;\r\n-        text-decoration: none;\r\n-    }\r\n-    \r\n-    .product__price {\r\n-        font-size: 16px;\r\n-    }\r\n-    \r\n-    .product__price--old {\r\n-        text-decoration: line-through;\r\n-        margin-right: 10px;\r\n-        color: #777777\r\n-    }\r\n-    \r\n-    .product__price--new {\r\n-        color: #FF6F61;\r\n-    }\r\n-    \r\n-    .product__sale {\r\n-        position: absolute;\r\n-        top: 20px;\r\n-        left: 0;\r\n-        background: #000;\r\n-        color: #fff;\r\n-        padding: 3px 10px;\r\n-    }\r\n-    \r\n-    .product__hot {\r\n-        position: absolute;\r\n-        top: 20px;\r\n-        left: 0;\r\n-        background: red;\r\n-        color: #fff;\r\n-        padding: 3px 10px;\r\n-    }\r\n-    /* ==SECTION COMMON== */\r\n-    \r\n-    .section-header {\r\n-        padding: 30px 0;\r\n-    }\r\n-    \r\n-    .section-header__title {\r\n-        font-family: 'Roboto';\r\n-        font-style: normal;\r\n-        font-weight: 500;\r\n-        font-size: 45px;\r\n-        line-height: 53px;\r\n-        text-align: center;\r\n-    }\r\n-    /* ==BLOCK FILTER== */\r\n-    \r\n-    .block-filter {\r\n-        padding: 15px 0;\r\n-    }\r\n-    \r\n-    .block-filter__link {\r\n-        color: #777;\r\n-    }\r\n-    \r\n-    .block-filter__item:first-child .block-filter__link {\r\n-        padding-left: 0;\r\n-    }\r\n-    \r\n-    .block-filter__link--active {\r\n-        color: #000\r\n-    }\r\n-    /* ==brand-banner== */\r\n-    \r\n-    .brand-banner {\r\n-        width: 100%;\r\n-        height: 776px;\r\n-        position: relative;\r\n-        background-image: url(\"./upload/collection/4.png\");\r\n-    }\r\n-    \r\n-    .div1 {\r\n-        position: absolute;\r\n-        top: 33%;\r\n-        left: 700px;\r\n-    }\r\n-    \r\n-    .div2 {\r\n-        position: absolute;\r\n-        top: 5%;\r\n-        right: 0;\r\n-    }\r\n-    \r\n-    .btn__seeconllec {\r\n-        position: absolute;\r\n-        top: 80%;\r\n-        left: 700px;\r\n-        font-family: 'Roboto';\r\n-        font-size: 29px;\r\n-        padding: 10px 20px;\r\n-        text-align: center;\r\n-        text-transform: capitalize;\r\n-    }\r\n-    \r\n-    .txt__conllec {\r\n-        position: absolute;\r\n-        top: 50%;\r\n-        color: #fff;\r\n-        left: 650px;\r\n-        font-family: 'Roboto';\r\n-        font-weight: 400;\r\n-        font-size: 27px;\r\n-        padding: 15px 50px;\r\n-    }\r\n-    \r\n-    .follow-instagam {\r\n-        margin-top: 100px;\r\n-        width: 100%;\r\n-        height: 700px;\r\n-        background: #F1F1F1;\r\n-    }\r\n-    \r\n-    .follow-instagam h1 {\r\n-        letter-spacing: 0.1em;\r\n-        text-transform: capitalize;\r\n-        font-family: 'Roboto';\r\n-        font-weight: 900;\r\n-        font-size: 40px;\r\n-        padding-top: 50px;\r\n-        text-align: center;\r\n-    }\r\n-    /* Instagram */\r\n-    \r\n-    .instagram__images img {\r\n-        margin-top: 50px;\r\n-        padding: 0 10px;\r\n-    }\r\n-    \r\n-    .instagram__images {\r\n-        display: flex;\r\n-    }\r\n-    \r\n-    .input-group {\r\n-        margin-top: 50px;\r\n-        .input__email {\r\n-            color: #f1f1f1;\r\n-            border: 0;\r\n-            padding-top: 20px;\r\n-            padding-right: 500px;\r\n-            margin-left: 400px;\r\n-        }\r\n-        #btn__button {\r\n-            border: 0;\r\n-            color: #000;\r\n-        }\n\\ No newline at end of file\n+::root {\r\n+    --color-primary: #0B0B0B;\r\n+    --color-secondary: #1E2832;\r\n+    --font-primary: 'Roboto', sans-serif;\r\n+}\r\n+\r\n+.header-wrapper {\r\n+    background: #F1F1F1;\r\n+}\r\n+\r\n+body {\r\n+    font-family: var(--font-primary);\r\n+}\r\n+\r\n+\r\n+/* == Main Menu == */\r\n+\r\n+.main-menu .navbar-nav .nav-link {\r\n+    padding: 20px 20px;\r\n+}\r\n+\r\n+\r\n+/* LOGO */\r\n+\r\n+.logo {\r\n+    position: absolute;\r\n+    transform: translateX(-50%);\r\n+    left: 50%;\r\n+}\r\n+\r\n+\r\n+/* BANNER TITLE */\r\n+\r\n+.brands {\r\n+    padding: 50px 0;\r\n+}\r\n+\r\n+.banner {\r\n+    padding: 50px 0;\r\n+}\r\n+\r\n+.banner__title {\r\n+    font-size: 74px;\r\n+    line-height: 55px;\r\n+}\r\n+\r\n+.banner__discription {\r\n+    font-weight: 400;\r\n+    font-size: 30px;\r\n+    line-height: 55px;\r\n+    text-transform: capitalize;\r\n+}\r\n+\r\n+.btn {\r\n+    border-radius: 0;\r\n+}\r\n+\r\n+\r\n+/* ===Account=== */\r\n+\r\n+.account__link {\r\n+    display: inline-block;\r\n+    margin: 0 10px;\r\n+    color: var(--color-primary);\r\n+}\r\n+\r\n+\r\n+/*==FEATURE PRODUCT==*/\r\n+\r\n+.feature-product .container {\r\n+    position: relative;\r\n+}\r\n+\r\n+.feature-product-explore {\r\n+    text-transform: uppercase;\r\n+    font-family: 'Roboto';\r\n+    font-weight: 400;\r\n+    font-size: 34px;\r\n+    line-height: 40px;\r\n+    position: absolute;\r\n+    top: 45%;\r\n+    left: -300px;\r\n+    transform: rotate(-90deg);\r\n+    z-index: 1;\r\n+}\r\n+\r\n+\r\n+/* ===PRODUCT ITEM ===*/\r\n+\r\n+.product-image {\r\n+    position: relative;\r\n+    overflow: hidden;\r\n+    margin-bottom: 23px;\r\n+}\r\n+\r\n+.product-image:hover .product__info {\r\n+    bottom: 0;\r\n+}\r\n+\r\n+.product__info {\r\n+    position: absolute;\r\n+    bottom: -100%;\r\n+    left: 0;\r\n+    right: 0;\r\n+    background: black;\r\n+    color: #fff;\r\n+    transition: ease-in-out 0.3s;\r\n+}\r\n+\r\n+.product__name {\r\n+    font-size: 16px;\r\n+    font-weight: 600;\r\n+    text-decoration: none;\r\n+    color: #000;\r\n+}\r\n+\r\n+.product-meta {\r\n+    padding: 10px 0;\r\n+}\r\n+\r\n+.product__category {\r\n+    font-size: 16px;\r\n+    color: #777;\r\n+    text-decoration: none;\r\n+}\r\n+\r\n+.product__price {\r\n+    font-size: 16px;\r\n+}\r\n+\r\n+.product__price--old {\r\n+    text-decoration: line-through;\r\n+    margin-right: 10px;\r\n+    color: #777777\r\n+}\r\n+\r\n+.product__price--new {\r\n+    color: #FF6F61;\r\n+}\r\n+\r\n+.product__sale {\r\n+    position: absolute;\r\n+    top: 20px;\r\n+    left: 0;\r\n+    background: #000;\r\n+    color: #fff;\r\n+    padding: 3px 10px;\r\n+}\r\n+\r\n+.product__hot {\r\n+    position: absolute;\r\n+    top: 20px;\r\n+    left: 0;\r\n+    background: red;\r\n+    color: #fff;\r\n+    padding: 3px 10px;\r\n+}\r\n+\r\n+\r\n+/* ==SECTION COMMON== */\r\n+\r\n+.section-header {\r\n+    padding: 30px 0;\r\n+}\r\n+\r\n+.section-header__title {\r\n+    font-family: 'Roboto';\r\n+    font-style: normal;\r\n+    font-weight: 500;\r\n+    font-size: 45px;\r\n+    line-height: 53px;\r\n+    text-align: center;\r\n+}\r\n+\r\n+\r\n+/* ==BLOCK FILTER== */\r\n+\r\n+.block-filter {\r\n+    padding: 15px 0;\r\n+}\r\n+\r\n+.block-filter__link {\r\n+    color: #777;\r\n+}\r\n+\r\n+.block-filter__item:first-child .block-filter__link {\r\n+    padding-left: 0;\r\n+}\r\n+\r\n+.block-filter__link--active {\r\n+    color: #000\r\n+}\r\n+\r\n+\r\n+/* ==brand-banner== */\r\n+\r\n+.brand-banner {\r\n+    width: 100%;\r\n+    height: 776px;\r\n+    position: relative;\r\n+    background-image: url(\"./upload/collection/4.png\");\r\n+}\r\n+\r\n+.div1 {\r\n+    position: absolute;\r\n+    top: 33%;\r\n+    left: 700px;\r\n+}\r\n+\r\n+.div2 {\r\n+    position: absolute;\r\n+    top: 5%;\r\n+    right: 0;\r\n+}\r\n+\r\n+.btn__seeconllec {\r\n+    position: absolute;\r\n+    top: 80%;\r\n+    left: 700px;\r\n+    font-family: 'Roboto';\r\n+    font-size: 29px;\r\n+    padding: 10px 20px;\r\n+    text-align: center;\r\n+    text-transform: capitalize;\r\n+}\r\n+\r\n+.txt__conllec {\r\n+    position: absolute;\r\n+    top: 50%;\r\n+    color: #fff;\r\n+    left: 650px;\r\n+    font-family: 'Roboto';\r\n+    font-weight: 400;\r\n+    font-size: 27px;\r\n+    padding: 15px 50px;\r\n+}\r\n+\r\n+.follow-instagam {\r\n+    margin-top: 100px;\r\n+    width: 100%;\r\n+    height: 700px;\r\n+    background: #F1F1F1;\r\n+}\r\n+\r\n+.follow-instagam h1 {\r\n+    letter-spacing: 0.1em;\r\n+    text-transform: capitalize;\r\n+    font-family: 'Roboto';\r\n+    font-weight: 900;\r\n+    font-size: 40px;\r\n+    padding-top: 50px;\r\n+    text-align: center;\r\n+}\r\n+\r\n+\r\n+/* Instagram */\r\n+\r\n+.instagram__images img {\r\n+    margin-top: 50px;\r\n+    padding: 0 10px;\r\n+}\r\n+\r\n+.instagram__images {\r\n+    display: flex;\r\n+}\r\n+\r\n+.input-group {\r\n+    margin-top: 50px;\r\n+}\r\n+\r\n+.input__email {\r\n+    color: #000;\r\n+    border: 0;\r\n+    padding-top: 20px;\r\n+    padding-right: 500px;\r\n+    margin-left: 400px;\r\n+}\r\n+\r\n+#btn__button {\r\n+    border: 0;\r\n+    color: #000;\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658162785767,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -268,9 +268,9 @@\n     margin-top: 50px;\r\n }\r\n \r\n .input__email {\r\n-    color: #000;\r\n+    background-color: #F1F1F1;\r\n     border: 0;\r\n     padding-top: 20px;\r\n     padding-right: 500px;\r\n     margin-left: 400px;\r\n"
+                },
+                {
+                    "date": 1658162816194,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -269,9 +269,9 @@\n }\r\n \r\n .input__email {\r\n     background-color: #F1F1F1;\r\n-    border: 0;\r\n+    border-bottom: 2px;\r\n     padding-top: 20px;\r\n     padding-right: 500px;\r\n     margin-left: 400px;\r\n }\r\n"
+                },
+                {
+                    "date": 1658162822654,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -269,9 +269,9 @@\n }\r\n \r\n .input__email {\r\n     background-color: #F1F1F1;\r\n-    border-bottom: 2px;\r\n+    border-top: 2px;\r\n     padding-top: 20px;\r\n     padding-right: 500px;\r\n     margin-left: 400px;\r\n }\r\n"
+                },
+                {
+                    "date": 1658162831347,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -269,9 +269,9 @@\n }\r\n \r\n .input__email {\r\n     background-color: #F1F1F1;\r\n-    border-top: 2px;\r\n+    border: 2px;\r\n     padding-top: 20px;\r\n     padding-right: 500px;\r\n     margin-left: 400px;\r\n }\r\n"
+                },
+                {
+                    "date": 1658162840590,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -276,7 +276,7 @@\n     margin-left: 400px;\r\n }\r\n \r\n #btn__button {\r\n-    border: 0;\r\n+    border: 1;\r\n     color: #000;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658162850221,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -276,7 +276,7 @@\n     margin-left: 400px;\r\n }\r\n \r\n #btn__button {\r\n-    border: 1;\r\n+    border: 2px;\r\n     color: #000;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658162862536,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -276,7 +276,7 @@\n     margin-left: 400px;\r\n }\r\n \r\n #btn__button {\r\n-    border: 2px;\r\n+    border: 2px 1px;\r\n     color: #000;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658162871447,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -276,7 +276,7 @@\n     margin-left: 400px;\r\n }\r\n \r\n #btn__button {\r\n-    border: 2px 1px;\r\n+    border: 2px 0 1px;\r\n     color: #000;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658162880165,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -276,7 +276,7 @@\n     margin-left: 400px;\r\n }\r\n \r\n #btn__button {\r\n-    border: 2px 0 1px;\r\n+    border: 2px;\r\n     color: #000;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658163066567,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -276,7 +276,7 @@\n     margin-left: 400px;\r\n }\r\n \r\n #btn__button {\r\n-    border: 2px;\r\n+    border: 2px solid #000000;\r\n     color: #000;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658163090254,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -269,9 +269,9 @@\n }\r\n \r\n .input__email {\r\n     background-color: #F1F1F1;\r\n-    border: 2px;\r\n+    border-bottom: 2px solid #000000;\r\n     padding-top: 20px;\r\n     padding-right: 500px;\r\n     margin-left: 400px;\r\n }\r\n"
+                },
+                {
+                    "date": 1658163097322,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -269,9 +269,9 @@\n }\r\n \r\n .input__email {\r\n     background-color: #F1F1F1;\r\n-    border-bottom: 2px solid #000000;\r\n+    border-bottom: 2px;\r\n     padding-top: 20px;\r\n     padding-right: 500px;\r\n     margin-left: 400px;\r\n }\r\n"
+                },
+                {
+                    "date": 1658163106733,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -269,14 +269,14 @@\n }\r\n \r\n .input__email {\r\n     background-color: #F1F1F1;\r\n-    border-bottom: 2px;\r\n+    border: 2px;\r\n     padding-top: 20px;\r\n     padding-right: 500px;\r\n     margin-left: 400px;\r\n }\r\n \r\n #btn__button {\r\n-    border: 2px solid #000000;\r\n+    border: 2px;\r\n     color: #000;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658181435869,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -203,9 +203,9 @@\n \r\n .div1 {\r\n     position: absolute;\r\n     top: 33%;\r\n-    left: 700px;\r\n+    left: 900px;\r\n }\r\n \r\n .div2 {\r\n     position: absolute;\r\n"
+                },
+                {
+                    "date": 1658181460585,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -203,9 +203,9 @@\n \r\n .div1 {\r\n     position: absolute;\r\n     top: 33%;\r\n-    left: 900px;\r\n+    left: 800px;\r\n }\r\n \r\n .div2 {\r\n     position: absolute;\r\n"
+                },
+                {
+                    "date": 1658181480585,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -203,9 +203,9 @@\n \r\n .div1 {\r\n     position: absolute;\r\n     top: 33%;\r\n-    left: 800px;\r\n+    left: 850px;\r\n }\r\n \r\n .div2 {\r\n     position: absolute;\r\n@@ -215,9 +215,9 @@\n \r\n .btn__seeconllec {\r\n     position: absolute;\r\n     top: 80%;\r\n-    left: 700px;\r\n+    left: 850px;\r\n     font-family: 'Roboto';\r\n     font-size: 29px;\r\n     padding: 10px 20px;\r\n     text-align: center;\r\n"
+                },
+                {
+                    "date": 1658181487377,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -227,9 +227,9 @@\n .txt__conllec {\r\n     position: absolute;\r\n     top: 50%;\r\n     color: #fff;\r\n-    left: 650px;\r\n+    left: 850px;\r\n     font-family: 'Roboto';\r\n     font-weight: 400;\r\n     font-size: 27px;\r\n     padding: 15px 50px;\r\n"
+                },
+                {
+                    "date": 1658181497616,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -227,9 +227,9 @@\n .txt__conllec {\r\n     position: absolute;\r\n     top: 50%;\r\n     color: #fff;\r\n-    left: 850px;\r\n+    left: 800px;\r\n     font-family: 'Roboto';\r\n     font-weight: 400;\r\n     font-size: 27px;\r\n     padding: 15px 50px;\r\n"
+                }
+            ],
+            "date": 1658155823163,
+            "name": "Commit-0",
+            "content": "::root {\r\n    --color-primary: #0B0B0B;\r\n    --color-secondary: #1E2832;\r\n    --font-primary: 'Roboto', sans-serif;\r\n}\r\n\r\n.header-wrapper {\r\n    background: #F1F1F1;\r\n}\r\n\r\nbody {\r\n    font-family: var(--font-primary);\r\n}\r\n\r\n\r\n/* == Main Menu == */\r\n\r\n.main-menu .navbar-nav .nav-link {\r\n    padding: 20px 20px;\r\n}\r\n\r\n\r\n/* LOGO */\r\n\r\n.logo {\r\n    position: absolute;\r\n    transform: translateX(-50%);\r\n    left: 50%;\r\n}\r\n\r\n\r\n/* BANNER TITLE */\r\n\r\n.brands {\r\n    padding: 50px 0;\r\n}\r\n\r\n.banner {\r\n    padding: 50px 0;\r\n}\r\n\r\n.banner__title {\r\n    font-size: 74px;\r\n    line-height: 55px;\r\n}\r\n\r\n.banner__discription {\r\n    font-weight: 400;\r\n    font-size: 30px;\r\n    line-height: 55px;\r\n    text-transform: capitalize;\r\n}\r\n\r\n.btn {\r\n    border-radius: 0;\r\n}\r\n\r\n\r\n/* ===Account=== */\r\n\r\n.account__link {\r\n    display: inline-block;\r\n    margin: 0 10px;\r\n    color: var(--color-primary);\r\n}\r\n\r\n\r\n/*==FEATURE PRODUCT==*/\r\n\r\n.feature-product .container {\r\n    position: relative;\r\n}\r\n\r\n.feature-product-explore {\r\n    text-transform: uppercase;\r\n    font-family: 'Roboto';\r\n    font-weight: 400;\r\n    font-size: 34px;\r\n    line-height: 40px;\r\n    position: absolute;\r\n    top: 45%;\r\n    left: -300px;\r\n    transform: rotate(-90deg);\r\n    z-index: 1;\r\n}\r\n\r\n\r\n/* ===PRODUCT ITEM ===*/\r\n\r\n.product-image {\r\n    position: relative;\r\n    overflow: hidden;\r\n    margin-bottom: 23px;\r\n}\r\n\r\n.product-image:hover .product__info {\r\n    bottom: 0;\r\n}\r\n\r\n.product__info {\r\n    position: absolute;\r\n    bottom: -100%;\r\n    left: 0;\r\n    right: 0;\r\n    background: black;\r\n    color: #fff;\r\n    transition: ease-in-out 0.3s;\r\n}\r\n\r\n.product__name {\r\n    font-size: 16px;\r\n    font-weight: 600;\r\n    text-decoration: none;\r\n    color: #000;\r\n}\r\n\r\n.product-meta {\r\n    padding: 10px 0;\r\n}\r\n\r\n.product__category {\r\n    font-size: 16px;\r\n    color: #777;\r\n    text-decoration: none;\r\n}\r\n\r\n.product__price {\r\n    font-size: 16px;\r\n}\r\n\r\n.product__price--old {\r\n    text-decoration: line-through;\r\n    margin-right: 10px;\r\n    color: #777777\r\n}\r\n\r\n.product__price--new {\r\n    color: #FF6F61;\r\n}\r\n\r\n.product__sale {\r\n    position: absolute;\r\n    top: 20px;\r\n    left: 0;\r\n    background: #000;\r\n    color: #fff;\r\n    padding: 3px 10px;\r\n}\r\n\r\n.product__hot {\r\n    position: absolute;\r\n    top: 20px;\r\n    left: 0;\r\n    background: red;\r\n    color: #fff;\r\n    padding: 3px 10px;\r\n}\r\n\r\n\r\n/* ==SECTION COMMON== */\r\n\r\n.section-header {\r\n    padding: 30px 0;\r\n}\r\n\r\n.section-header__title {\r\n    font-family: 'Roboto';\r\n    font-style: normal;\r\n    font-weight: 500;\r\n    font-size: 45px;\r\n    line-height: 53px;\r\n    text-align: center;\r\n}\r\n\r\n\r\n/* ==BLOCK FILTER== */\r\n\r\n.block-filter {\r\n    padding: 15px 0;\r\n}\r\n\r\n.block-filter__link {\r\n    color: #777;\r\n}\r\n\r\n.block-filter__item:first-child .block-filter__link {\r\n    padding-left: 0;\r\n}\r\n\r\n.block-filter__link--active {\r\n    color: #000\r\n}\r\n\r\n\r\n/* ==brand-banner== */\r\n\r\n.brand-banner {\r\n    padding: 80px 0;\r\n}\r\n\r\n.brand-banner__background {\r\n    background-image: url(./upload/collection/1.png );\r\n}\r\n\r\n\r\n/* ==Best sellers== */"
+        }
+    ]
+}
