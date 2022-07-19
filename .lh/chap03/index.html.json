@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 69,
+            "activePatchIndex": 110,
             "patches": [
                 {
                     "date": 1658155686826,
@@ -284,6 +284,170 @@
                 {
                     "date": 1658181516754,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -630,9 +630,9 @@\n     <footer>\r\n         <div class=\"footer-nav\">\r\n             <div class=\"container\">\r\n                 <div class=\"nav__footer1\">\r\n-\r\n+                    <img src=\"\" alt=\"\">\r\n                 </div>\r\n                 <div class=\"nav__footer2\">\r\n \r\n                 </div>\r\n"
+                },
+                {
+                    "date": 1658206256002,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -631,8 +631,9 @@\n         <div class=\"footer-nav\">\r\n             <div class=\"container\">\r\n                 <div class=\"nav__footer1\">\r\n                     <img src=\"\" alt=\"\">\r\n+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>\r\n                 </div>\r\n                 <div class=\"nav__footer2\">\r\n \r\n                 </div>\r\n"
+                },
+                {
+                    "date": 1658206428464,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -632,8 +632,14 @@\n             <div class=\"container\">\r\n                 <div class=\"nav__footer1\">\r\n                     <img src=\"\" alt=\"\">\r\n                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>\r\n+                    <div class=\"flex__internet\">\r\n+                        <i class=\"bi bi-facebook\"></i>\r\n+                        <i class=\"bi bi-twitter\"></i>\r\n+                        <i class=\"bi bi-instagram\"></i>\r\n+                        <i class=\"bi bi-link-45deg\"></i>\r\n+                    </div>\r\n                 </div>\r\n                 <div class=\"nav__footer2\">\r\n \r\n                 </div>\r\n"
+                },
+                {
+                    "date": 1658206440764,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -632,9 +632,9 @@\n             <div class=\"container\">\r\n                 <div class=\"nav__footer1\">\r\n                     <img src=\"\" alt=\"\">\r\n                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>\r\n-                    <div class=\"flex__internet\">\r\n+                    <div class=\"flex__internet\" style=\"display:flex;\">\r\n                         <i class=\"bi bi-facebook\"></i>\r\n                         <i class=\"bi bi-twitter\"></i>\r\n                         <i class=\"bi bi-instagram\"></i>\r\n                         <i class=\"bi bi-link-45deg\"></i>\r\n"
+                },
+                {
+                    "date": 1658206466642,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -630,9 +630,9 @@\n     <footer>\r\n         <div class=\"footer-nav\">\r\n             <div class=\"container\">\r\n                 <div class=\"nav__footer1\">\r\n-                    <img src=\"\" alt=\"\">\r\n+                    <img src=\"./images/logo1.png 2x\" alt=\"\">\r\n                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>\r\n                     <div class=\"flex__internet\" style=\"display:flex;\">\r\n                         <i class=\"bi bi-facebook\"></i>\r\n                         <i class=\"bi bi-twitter\"></i>\r\n"
+                },
+                {
+                    "date": 1658206481238,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -630,9 +630,9 @@\n     <footer>\r\n         <div class=\"footer-nav\">\r\n             <div class=\"container\">\r\n                 <div class=\"nav__footer1\">\r\n-                    <img src=\"./images/logo1.png 2x\" alt=\"\">\r\n+                    <img src=\"./images/logo1.png 1x\" alt=\"\">\r\n                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>\r\n                     <div class=\"flex__internet\" style=\"display:flex;\">\r\n                         <i class=\"bi bi-facebook\"></i>\r\n                         <i class=\"bi bi-twitter\"></i>\r\n"
+                },
+                {
+                    "date": 1658206488343,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -630,9 +630,9 @@\n     <footer>\r\n         <div class=\"footer-nav\">\r\n             <div class=\"container\">\r\n                 <div class=\"nav__footer1\">\r\n-                    <img src=\"./images/logo1.png 1x\" alt=\"\">\r\n+                    <img src=\"./images/logo1.png \" alt=\"\">\r\n                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>\r\n                     <div class=\"flex__internet\" style=\"display:flex;\">\r\n                         <i class=\"bi bi-facebook\"></i>\r\n                         <i class=\"bi bi-twitter\"></i>\r\n"
+                },
+                {
+                    "date": 1658206510920,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -630,9 +630,9 @@\n     <footer>\r\n         <div class=\"footer-nav\">\r\n             <div class=\"container\">\r\n                 <div class=\"nav__footer1\">\r\n-                    <img src=\"./images/logo1.png \" alt=\"\">\r\n+                    <img src=\"./images/logo1.png 2x \" alt=\"\" class=\"img-fluid\">\r\n                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>\r\n                     <div class=\"flex__internet\" style=\"display:flex;\">\r\n                         <i class=\"bi bi-facebook\"></i>\r\n                         <i class=\"bi bi-twitter\"></i>\r\n"
+                },
+                {
+                    "date": 1658206517693,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -630,9 +630,9 @@\n     <footer>\r\n         <div class=\"footer-nav\">\r\n             <div class=\"container\">\r\n                 <div class=\"nav__footer1\">\r\n-                    <img src=\"./images/logo1.png 2x \" alt=\"\" class=\"img-fluid\">\r\n+                    <img src=\"./images/logo1.png  \" alt=\"\" class=\"img-fluid\">\r\n                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>\r\n                     <div class=\"flex__internet\" style=\"display:flex;\">\r\n                         <i class=\"bi bi-facebook\"></i>\r\n                         <i class=\"bi bi-twitter\"></i>\r\n"
+                },
+                {
+                    "date": 1658206523002,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -630,9 +630,9 @@\n     <footer>\r\n         <div class=\"footer-nav\">\r\n             <div class=\"container\">\r\n                 <div class=\"nav__footer1\">\r\n-                    <img src=\"./images/logo1.png  \" alt=\"\" class=\"img-fluid\">\r\n+                    <img src=\"./images/logo1.png 1x \" alt=\"\" class=\"img-fluid\">\r\n                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>\r\n                     <div class=\"flex__internet\" style=\"display:flex;\">\r\n                         <i class=\"bi bi-facebook\"></i>\r\n                         <i class=\"bi bi-twitter\"></i>\r\n"
+                },
+                {
+                    "date": 1658206557972,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -630,9 +630,9 @@\n     <footer>\r\n         <div class=\"footer-nav\">\r\n             <div class=\"container\">\r\n                 <div class=\"nav__footer1\">\r\n-                    <img src=\"./images/logo1.png 1x \" alt=\"\" class=\"img-fluid\">\r\n+                    <img srcset=\"./images/logo1.png 2x\" alt=\"\">\r\n                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>\r\n                     <div class=\"flex__internet\" style=\"display:flex;\">\r\n                         <i class=\"bi bi-facebook\"></i>\r\n                         <i class=\"bi bi-twitter\"></i>\r\n"
+                },
+                {
+                    "date": 1658206575148,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -609,15 +609,15 @@\n             <div class=\"imges3\">\r\n                 <img src=\"./upload/instagram/3.png \" alt=\"\" class=\"img-fluid\">\r\n             </div>\r\n             <div class=\"imges4\">\r\n-                <img src=\"./upload/instagram/4.png \" alt=\"\" class=\"img-fluid\">\r\n+                <img srcset=\"./upload/instagram/4.png \" alt=\"\" class=\"img-fluid\">\r\n             </div>\r\n             <div class=\"imges5\">\r\n-                <img src=\"./upload/instagram/5.png \" alt=\"\" class=\"img-fluid\">\r\n+                <img srcset=\"./upload/instagram/5.png \" alt=\"\" class=\"img-fluid\">\r\n             </div>\r\n             <div class=\"imges6\">\r\n-                <img src=\"./upload/instagram/6.png \" alt=\"\" class=\"img-fluid\">\r\n+                <img srcset=\"./upload/instagram/6.png \" alt=\"\" class=\"img-fluid\">\r\n             </div>\r\n \r\n         </div>\r\n         <h1>Or subscribe to the newsletter</h1>\r\n"
+                },
+                {
+                    "date": 1658206616758,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -628,9 +628,9 @@\n \r\n     </section>\r\n     <footer>\r\n         <div class=\"footer-nav\">\r\n-            <div class=\"container\">\r\n+            <div class=\"container footer__nav\">\r\n                 <div class=\"nav__footer1\">\r\n                     <img srcset=\"./images/logo1.png 2x\" alt=\"\">\r\n                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>\r\n                     <div class=\"flex__internet\" style=\"display:flex;\">\r\n"
+                },
+                {
+                    "date": 1658206918027,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -640,8 +640,14 @@\n                         <i class=\"bi bi-link-45deg\"></i>\r\n                     </div>\r\n                 </div>\r\n                 <div class=\"nav__footer2\">\r\n+                    <h3>CATALOG</h3>\r\n+                    <p>Necklaces</p>\r\n+                    <p>Hoodies</p>\r\n+                    <p>Jewelry Box</p>\r\n+                    <p>T-Shirt</p>\r\n+                    <p>Jacket</p>\r\n \r\n                 </div>\r\n                 <div class=\"nav__footer3\">\r\n \r\n"
+                },
+                {
+                    "date": 1658207069066,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -640,9 +640,9 @@\n                         <i class=\"bi bi-link-45deg\"></i>\r\n                     </div>\r\n                 </div>\r\n                 <div class=\"nav__footer2\">\r\n-                    <h3>CATALOG</h3>\r\n+                    <h5>CATALOG</h5>\r\n                     <p>Necklaces</p>\r\n                     <p>Hoodies</p>\r\n                     <p>Jewelry Box</p>\r\n                     <p>T-Shirt</p>\r\n"
+                },
+                {
+                    "date": 1658207086337,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -646,9 +646,8 @@\n                     <p>Hoodies</p>\r\n                     <p>Jewelry Box</p>\r\n                     <p>T-Shirt</p>\r\n                     <p>Jacket</p>\r\n-\r\n                 </div>\r\n                 <div class=\"nav__footer3\">\r\n \r\n                 </div>\r\n"
+                },
+                {
+                    "date": 1658207100787,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -648,12 +648,22 @@\n                     <p>T-Shirt</p>\r\n                     <p>Jacket</p>\r\n                 </div>\r\n                 <div class=\"nav__footer3\">\r\n-\r\n+                    <h5>CATALOG</h5>\r\n+                    <p>Necklaces</p>\r\n+                    <p>Hoodies</p>\r\n+                    <p>Jewelry Box</p>\r\n+                    <p>T-Shirt</p>\r\n+                    <p>Jacket</p>\r\n                 </div>\r\n                 <div class=\"nav__footer4\">\r\n-\r\n+                    <h5>CATALOG</h5>\r\n+                    <p>Necklaces</p>\r\n+                    <p>Hoodies</p>\r\n+                    <p>Jewelry Box</p>\r\n+                    <p>T-Shirt</p>\r\n+                    <p>Jacket</p>\r\n                 </div>\r\n             </div>\r\n         </div>\r\n         <div class=\"copyright\">\r\n"
+                },
+                {
+                    "date": 1658207196258,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -648,14 +648,13 @@\n                     <p>T-Shirt</p>\r\n                     <p>Jacket</p>\r\n                 </div>\r\n                 <div class=\"nav__footer3\">\r\n-                    <h5>CATALOG</h5>\r\n-                    <p>Necklaces</p>\r\n-                    <p>Hoodies</p>\r\n-                    <p>Jewelry Box</p>\r\n-                    <p>T-Shirt</p>\r\n-                    <p>Jacket</p>\r\n+                    <h5>ABOUT US</h5>\r\n+                    <p>Sitemap</p>\r\n+                    <p>FAQ</p>\r\n+                    <p>About Us</p>\r\n+                    <p>Terms & Conditions</p>\r\n                 </div>\r\n                 <div class=\"nav__footer4\">\r\n                     <h5>CATALOG</h5>\r\n                     <p>Necklaces</p>\r\n"
+                },
+                {
+                    "date": 1658207218368,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -649,8 +649,9 @@\n                     <p>Jacket</p>\r\n                 </div>\r\n                 <div class=\"nav__footer3\">\r\n                     <h5>ABOUT US</h5>\r\n+                    <p>Our producers</p>\r\n                     <p>Sitemap</p>\r\n                     <p>FAQ</p>\r\n                     <p>About Us</p>\r\n                     <p>Terms & Conditions</p>\r\n"
+                },
+                {
+                    "date": 1658207311912,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -656,14 +656,14 @@\n                     <p>About Us</p>\r\n                     <p>Terms & Conditions</p>\r\n                 </div>\r\n                 <div class=\"nav__footer4\">\r\n-                    <h5>CATALOG</h5>\r\n-                    <p>Necklaces</p>\r\n-                    <p>Hoodies</p>\r\n-                    <p>Jewelry Box</p>\r\n-                    <p>T-Shirt</p>\r\n-                    <p>Jacket</p>\r\n+                    <h5>CUSTOMER SERVICES</h5>\r\n+                    <p>Contact Us</p>\r\n+                    <p>Track Your Order</p>\r\n+                    <p>ProductCare & Repair</p>\r\n+                    <p>Book An Appointment</p>\r\n+                    <p>Shipping & Returns</p>\r\n                 </div>\r\n             </div>\r\n         </div>\r\n         <div class=\"copyright\">\r\n"
+                },
+                {
+                    "date": 1658207375303,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -632,9 +632,9 @@\n             <div class=\"container footer__nav\">\r\n                 <div class=\"nav__footer1\">\r\n                     <img srcset=\"./images/logo1.png 2x\" alt=\"\">\r\n                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>\r\n-                    <div class=\"flex__internet\" style=\"display:flex;\">\r\n+                    <div class=\"flex__internet p-3\" style=\"display:flex;\">\r\n                         <i class=\"bi bi-facebook\"></i>\r\n                         <i class=\"bi bi-twitter\"></i>\r\n                         <i class=\"bi bi-instagram\"></i>\r\n                         <i class=\"bi bi-link-45deg\"></i>\r\n"
+                },
+                {
+                    "date": 1658207387748,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -632,9 +632,9 @@\n             <div class=\"container footer__nav\">\r\n                 <div class=\"nav__footer1\">\r\n                     <img srcset=\"./images/logo1.png 2x\" alt=\"\">\r\n                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>\r\n-                    <div class=\"flex__internet p-3\" style=\"display:flex;\">\r\n+                    <div class=\"flex__internet \" style=\"display:flex; margin-left: 10px;\">\r\n                         <i class=\"bi bi-facebook\"></i>\r\n                         <i class=\"bi bi-twitter\"></i>\r\n                         <i class=\"bi bi-instagram\"></i>\r\n                         <i class=\"bi bi-link-45deg\"></i>\r\n"
+                },
+                {
+                    "date": 1658207407209,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -632,9 +632,9 @@\n             <div class=\"container footer__nav\">\r\n                 <div class=\"nav__footer1\">\r\n                     <img srcset=\"./images/logo1.png 2x\" alt=\"\">\r\n                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>\r\n-                    <div class=\"flex__internet \" style=\"display:flex; margin-left: 10px;\">\r\n+                    <div class=\"flex__internet \" style=\"display:flex; padding-left: 5px;\">\r\n                         <i class=\"bi bi-facebook\"></i>\r\n                         <i class=\"bi bi-twitter\"></i>\r\n                         <i class=\"bi bi-instagram\"></i>\r\n                         <i class=\"bi bi-link-45deg\"></i>\r\n"
+                },
+                {
+                    "date": 1658207418341,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -632,9 +632,9 @@\n             <div class=\"container footer__nav\">\r\n                 <div class=\"nav__footer1\">\r\n                     <img srcset=\"./images/logo1.png 2x\" alt=\"\">\r\n                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>\r\n-                    <div class=\"flex__internet \" style=\"display:flex; padding-left: 5px;\">\r\n+                    <div class=\"flex__internet \">\r\n                         <i class=\"bi bi-facebook\"></i>\r\n                         <i class=\"bi bi-twitter\"></i>\r\n                         <i class=\"bi bi-instagram\"></i>\r\n                         <i class=\"bi bi-link-45deg\"></i>\r\n"
+                },
+                {
+                    "date": 1658207539337,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -633,12 +633,12 @@\n                 <div class=\"nav__footer1\">\r\n                     <img srcset=\"./images/logo1.png 2x\" alt=\"\">\r\n                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>\r\n                     <div class=\"flex__internet \">\r\n-                        <i class=\"bi bi-facebook\"></i>\r\n-                        <i class=\"bi bi-twitter\"></i>\r\n-                        <i class=\"bi bi-instagram\"></i>\r\n-                        <i class=\"bi bi-link-45deg\"></i>\r\n+                        <i class=\"bi bi-facebook flex__icon\"></i>\r\n+                        <i class=\"bi bi-twitter flex__icon\"></i>\r\n+                        <i class=\"bi bi-instagram flex__icon\"></i>\r\n+                        <i class=\"bi bi-link-45deg flex__icon\"></i>\r\n                     </div>\r\n                 </div>\r\n                 <div class=\"nav__footer2\">\r\n                     <h5>CATALOG</h5>\r\n"
+                },
+                {
+                    "date": 1658207567799,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -633,9 +633,9 @@\n                 <div class=\"nav__footer1\">\r\n                     <img srcset=\"./images/logo1.png 2x\" alt=\"\">\r\n                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>\r\n                     <div class=\"flex__internet \">\r\n-                        <i class=\"bi bi-facebook flex__icon\"></i>\r\n+                        <i class=\"bi bi-facebook  flex__icon\"></i>\r\n                         <i class=\"bi bi-twitter flex__icon\"></i>\r\n                         <i class=\"bi bi-instagram flex__icon\"></i>\r\n                         <i class=\"bi bi-link-45deg flex__icon\"></i>\r\n                     </div>\r\n"
+                },
+                {
+                    "date": 1658207680765,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -633,9 +633,9 @@\n                 <div class=\"nav__footer1\">\r\n                     <img srcset=\"./images/logo1.png 2x\" alt=\"\">\r\n                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>\r\n                     <div class=\"flex__internet \">\r\n-                        <i class=\"bi bi-facebook  flex__icon\"></i>\r\n+                        <i class=\"bi bi-facebook  \"></i>\r\n                         <i class=\"bi bi-twitter flex__icon\"></i>\r\n                         <i class=\"bi bi-instagram flex__icon\"></i>\r\n                         <i class=\"bi bi-link-45deg flex__icon\"></i>\r\n                     </div>\r\n"
+                },
+                {
+                    "date": 1658207986330,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -631,9 +631,9 @@\n         <div class=\"footer-nav\">\r\n             <div class=\"container footer__nav\">\r\n                 <div class=\"nav__footer1\">\r\n                     <img srcset=\"./images/logo1.png 2x\" alt=\"\">\r\n-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>\r\n+                    <p style=\"font-size: 20px;\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>\r\n                     <div class=\"flex__internet \">\r\n                         <i class=\"bi bi-facebook  \"></i>\r\n                         <i class=\"bi bi-twitter flex__icon\"></i>\r\n                         <i class=\"bi bi-instagram flex__icon\"></i>\r\n"
+                },
+                {
+                    "date": 1658208002943,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -631,9 +631,9 @@\n         <div class=\"footer-nav\">\r\n             <div class=\"container footer__nav\">\r\n                 <div class=\"nav__footer1\">\r\n                     <img srcset=\"./images/logo1.png 2x\" alt=\"\">\r\n-                    <p style=\"font-size: 20px;\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>\r\n+                    <p style=\"margin-top: 10px;\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>\r\n                     <div class=\"flex__internet \">\r\n                         <i class=\"bi bi-facebook  \"></i>\r\n                         <i class=\"bi bi-twitter flex__icon\"></i>\r\n                         <i class=\"bi bi-instagram flex__icon\"></i>\r\n"
+                },
+                {
+                    "date": 1658208480727,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -667,9 +667,9 @@\n             </div>\r\n         </div>\r\n         <div class=\"copyright\">\r\n             <div class=\"container\">\r\n-\r\n+                <div class=\"d-flex justify-content-between\">...</div>\r\n             </div>\r\n         </div>\r\n     </footer>\r\n \r\n"
+                },
+                {
+                    "date": 1658208510176,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -667,9 +667,11 @@\n             </div>\r\n         </div>\r\n         <div class=\"copyright\">\r\n             <div class=\"container\">\r\n-                <div class=\"d-flex justify-content-between\">...</div>\r\n+                <div class=\"d-flex justify-content-between\">\r\n+                    <p>@2022 Coral, Inc</p>\r\n+                </div>\r\n             </div>\r\n         </div>\r\n     </footer>\r\n \r\n"
+                },
+                {
+                    "date": 1658208521813,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -668,9 +668,11 @@\n         </div>\r\n         <div class=\"copyright\">\r\n             <div class=\"container\">\r\n                 <div class=\"d-flex justify-content-between\">\r\n-                    <p>@2022 Coral, Inc</p>\r\n+                    <div class=\"div\">\r\n+                        <p>@2022 Coral, Inc</p>\r\n+                    </div>\r\n                 </div>\r\n             </div>\r\n         </div>\r\n     </footer>\r\n"
+                },
+                {
+                    "date": 1658208531192,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -668,9 +668,9 @@\n         </div>\r\n         <div class=\"copyright\">\r\n             <div class=\"container\">\r\n                 <div class=\"d-flex justify-content-between\">\r\n-                    <div class=\"div\">\r\n+                    <div class=\"coral\">\r\n                         <p>@2022 Coral, Inc</p>\r\n                     </div>\r\n                 </div>\r\n             </div>\r\n"
+                },
+                {
+                    "date": 1658208569217,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -667,12 +667,18 @@\n             </div>\r\n         </div>\r\n         <div class=\"copyright\">\r\n             <div class=\"container\">\r\n-                <div class=\"d-flex justify-content-between\">\r\n+                <div class=\"d-flex justify-content-around\">\r\n                     <div class=\"coral\">\r\n                         <p>@2022 Coral, Inc</p>\r\n                     </div>\r\n+                    <div class=\"coral\">\r\n+                        <p>@2022 Coral, Inc</p>\r\n+                    </div>\r\n+                    <div class=\"coral\">\r\n+                        <p>@2022 Coral, Inc</p>\r\n+                    </div>\r\n                 </div>\r\n             </div>\r\n         </div>\r\n     </footer>\r\n"
+                },
+                {
+                    "date": 1658208595289,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -671,10 +671,10 @@\n                 <div class=\"d-flex justify-content-around\">\r\n                     <div class=\"coral\">\r\n                         <p>@2022 Coral, Inc</p>\r\n                     </div>\r\n-                    <div class=\"coral\">\r\n-                        <p>@2022 Coral, Inc</p>\r\n+                    <div class=\"internet__icon\">\r\n+\r\n                     </div>\r\n                     <div class=\"coral\">\r\n                         <p>@2022 Coral, Inc</p>\r\n                     </div>\r\n"
+                },
+                {
+                    "date": 1658208605972,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -674,9 +674,9 @@\n                     </div>\r\n                     <div class=\"internet__icon\">\r\n \r\n                     </div>\r\n-                    <div class=\"coral\">\r\n+                    <div class=\"scroll\">\r\n                         <p>@2022 Coral, Inc</p>\r\n                     </div>\r\n                 </div>\r\n             </div>\r\n"
+                },
+                {
+                    "date": 1658208631099,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -675,9 +675,9 @@\n                     <div class=\"internet__icon\">\r\n \r\n                     </div>\r\n                     <div class=\"scroll\">\r\n-                        <p>@2022 Coral, Inc</p>\r\n+                        <p>Scroll to top</p>\r\n                     </div>\r\n                 </div>\r\n             </div>\r\n         </div>\r\n"
+                },
+                {
+                    "date": 1658208695149,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -675,9 +675,9 @@\n                     <div class=\"internet__icon\">\r\n \r\n                     </div>\r\n                     <div class=\"scroll\">\r\n-                        <p>Scroll to top</p>\r\n+                        <p>Scroll to top <i class=\"bi bi-arrow-bar-up\"></i></p>\r\n                     </div>\r\n                 </div>\r\n             </div>\r\n         </div>\r\n"
+                },
+                {
+                    "date": 1658208809613,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -672,9 +672,9 @@\n                     <div class=\"coral\">\r\n                         <p>@2022 Coral, Inc</p>\r\n                     </div>\r\n                     <div class=\"internet__icon\">\r\n-\r\n+                        <img srcset=\"./images/1.png\" alt=\"\">\r\n                     </div>\r\n                     <div class=\"scroll\">\r\n                         <p>Scroll to top <i class=\"bi bi-arrow-bar-up\"></i></p>\r\n                     </div>\r\n"
+                },
+                {
+                    "date": 1658208832274,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -672,12 +672,12 @@\n                     <div class=\"coral\">\r\n                         <p>@2022 Coral, Inc</p>\r\n                     </div>\r\n                     <div class=\"internet__icon\">\r\n-                        <img srcset=\"./images/1.png\" alt=\"\">\r\n+                        <img srcset=\"./images/1.png 2x\" alt=\"\" class=\"img-fluid\r\n                     </div>\r\n-                    <div class=\"scroll\">\r\n-                        <p>Scroll to top <i class=\"bi bi-arrow-bar-up\"></i></p>\r\n+                    <div class=\" scroll \">\r\n+                        <p>Scroll to top <i class=\"bi bi-arrow-bar-up \"></i></p>\r\n                     </div>\r\n                 </div>\r\n             </div>\r\n         </div>\r\n"
+                },
+                {
+                    "date": 1658208842626,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -672,16 +672,15 @@\n                     <div class=\"coral\">\r\n                         <p>@2022 Coral, Inc</p>\r\n                     </div>\r\n                     <div class=\"internet__icon\">\r\n-                        <img srcset=\"./images/1.png 2x\" alt=\"\" class=\"img-fluid\r\n+                        <img srcset=\"./images/1.png 2x\" alt=\"\" class=\"img-fluid\" </div>\r\n+                        <div class=\" scroll \">\r\n+                            <p>Scroll to top <i class=\"bi bi-arrow-bar-up \"></i></p>\r\n+                        </div>\r\n                     </div>\r\n-                    <div class=\" scroll \">\r\n-                        <p>Scroll to top <i class=\"bi bi-arrow-bar-up \"></i></p>\r\n-                    </div>\r\n                 </div>\r\n             </div>\r\n-        </div>\r\n     </footer>\r\n \r\n </body>\r\n \r\n"
+                },
+                {
+                    "date": 1658208861877,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -672,15 +672,16 @@\n                     <div class=\"coral\">\r\n                         <p>@2022 Coral, Inc</p>\r\n                     </div>\r\n                     <div class=\"internet__icon\">\r\n-                        <img srcset=\"./images/1.png 2x\" alt=\"\" class=\"img-fluid\" </div>\r\n-                        <div class=\" scroll \">\r\n-                            <p>Scroll to top <i class=\"bi bi-arrow-bar-up \"></i></p>\r\n-                        </div>\r\n+                        <img srcset=\"./images/1.png 2x\" alt=\"\" class=\"img-fluid\">\r\n                     </div>\r\n+                    <div class=\" scroll \">\r\n+                        <p>Scroll to top <i class=\"bi bi-arrow-bar-up \"></i></p>\r\n+                    </div>\r\n                 </div>\r\n             </div>\r\n+        </div>\r\n     </footer>\r\n \r\n </body>\r\n \r\n"
                 }
             ],
             "date": 1658155686826,

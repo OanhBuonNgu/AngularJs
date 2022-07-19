@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 176,
+            "activePatchIndex": 212,
             "patches": [
                 {
                     "date": 1658155823163,
@@ -712,6 +712,150 @@
                 {
                     "date": 1658181497616,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -227,9 +227,9 @@\n .txt__conllec {\r\n     position: absolute;\r\n     top: 50%;\r\n     color: #fff;\r\n-    left: 850px;\r\n+    left: 800px;\r\n     font-family: 'Roboto';\r\n     font-weight: 400;\r\n     font-size: 27px;\r\n     padding: 15px 50px;\r\n"
+                },
+                {
+                    "date": 1658206657800,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -278,5 +278,13 @@\n \r\n #btn__button {\r\n     border: 2px;\r\n     color: #000;\r\n+}\r\n+\r\n+\r\n+/* footer-nav */\r\n+\r\n+.footer-nav {\r\n+    width: 100%;\r\n+    height: 600px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658206668499,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -285,6 +285,6 @@\n /* footer-nav */\r\n \r\n .footer-nav {\r\n     width: 100%;\r\n-    height: 600px;\r\n+    height: 400px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658206675496,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -285,6 +285,6 @@\n /* footer-nav */\r\n \r\n .footer-nav {\r\n     width: 100%;\r\n-    height: 400px;\r\n+    height: 600px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658206683941,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -285,6 +285,6 @@\n /* footer-nav */\r\n \r\n .footer-nav {\r\n     width: 100%;\r\n-    height: 600px;\r\n+    height: 400px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658206716650,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -286,5 +286,13 @@\n \r\n .footer-nav {\r\n     width: 100%;\r\n     height: 400px;\r\n-}\n\\ No newline at end of file\n+}\r\n+\r\n+.nav__footer1 {}\r\n+\r\n+.nav__footer1 {}\r\n+\r\n+.nav__footer1 {}\r\n+\r\n+.nav__footer1 {}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658206722992,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -290,9 +290,9 @@\n }\r\n \r\n .nav__footer1 {}\r\n \r\n-.nav__footer1 {}\r\n+.nav__footer2 {}\r\n \r\n-.nav__footer1 {}\r\n+.nav__footer3 {}\r\n\\ No newline at end of file\n \r\n-.nav__footer1 {}\n+.nav__footer4 {}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658206740749,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -286,11 +286,14 @@\n \r\n .footer-nav {\r\n     width: 100%;\r\n     height: 400px;\r\n+    display: flex;\r\n }\r\n \r\n-.nav__footer1 {}\r\n+.nav__footer1 {\r\n+    width: 25%;\r\n+}\r\n \r\n .nav__footer2 {}\r\n \r\n .nav__footer3 {}\r\n"
+                },
+                {
+                    "date": 1658206752649,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -293,9 +293,15 @@\n .nav__footer1 {\r\n     width: 25%;\r\n }\r\n \r\n-.nav__footer2 {}\r\n+.nav__footer2 {\r\n+    width: 25%;\r\n+}\r\n \r\n\\ No newline at end of file\n-.nav__footer3 {}\r\n+.nav__footer3 {\r\n+    width: 25%;\r\n+}\r\n \r\n-.nav__footer4 {}\n+.nav__footer4 {\r\n+    width: 25%;\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1658206934537,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -287,8 +287,9 @@\n .footer-nav {\r\n     width: 100%;\r\n     height: 400px;\r\n     display: flex;\r\n+    display: inline;\r\n }\r\n \r\n .nav__footer1 {\r\n     width: 25%;\r\n"
+                },
+                {
+                    "date": 1658206942731,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -287,9 +287,8 @@\n .footer-nav {\r\n     width: 100%;\r\n     height: 400px;\r\n     display: flex;\r\n-    display: inline;\r\n }\r\n \r\n .nav__footer1 {\r\n     width: 25%;\r\n"
+                },
+                {
+                    "date": 1658206957846,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -287,8 +287,9 @@\n .footer-nav {\r\n     width: 100%;\r\n     height: 400px;\r\n     display: flex;\r\n+    flex-wrap: wrap;\r\n }\r\n \r\n .nav__footer1 {\r\n     width: 25%;\r\n"
+                },
+                {
+                    "date": 1658207020790,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -286,10 +286,8 @@\n \r\n .footer-nav {\r\n     width: 100%;\r\n     height: 400px;\r\n-    display: flex;\r\n-    flex-wrap: wrap;\r\n }\r\n \r\n .nav__footer1 {\r\n     width: 25%;\r\n"
+                },
+                {
+                    "date": 1658207054141,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -283,9 +283,11 @@\n \r\n \r\n /* footer-nav */\r\n \r\n-.footer-nav {\r\n+.footer__nav {\r\n+    display: flex;\r\n+    flex-wrap: wrap;\r\n     width: 100%;\r\n     height: 400px;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1658207349691,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -284,8 +284,9 @@\n \r\n /* footer-nav */\r\n \r\n .footer__nav {\r\n+    padding-top: 100px;\r\n     display: flex;\r\n     flex-wrap: wrap;\r\n     width: 100%;\r\n     height: 400px;\r\n"
+                },
+                {
+                    "date": 1658207463883,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -295,8 +295,13 @@\n .nav__footer1 {\r\n     width: 25%;\r\n }\r\n \r\n+.flex__internet {\r\n+    display: flex;\r\n+    flex-wrap: wrap;\r\n+}\r\n+\r\n .nav__footer2 {\r\n     width: 25%;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1658207478016,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -296,8 +296,9 @@\n     width: 25%;\r\n }\r\n \r\n .flex__internet {\r\n+    margin-left: 50px;\r\n     display: flex;\r\n     flex-wrap: wrap;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1658207492019,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -296,8 +296,9 @@\n     width: 25%;\r\n }\r\n \r\n .flex__internet {\r\n+    padding: 5px;\r\n     margin-left: 50px;\r\n     display: flex;\r\n     flex-wrap: wrap;\r\n }\r\n"
+                },
+                {
+                    "date": 1658207500413,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -296,9 +296,9 @@\n     width: 25%;\r\n }\r\n \r\n .flex__internet {\r\n-    padding: 5px;\r\n+    padding-left: 5px;\r\n     margin-left: 50px;\r\n     display: flex;\r\n     flex-wrap: wrap;\r\n }\r\n"
+                },
+                {
+                    "date": 1658207511786,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -296,9 +296,8 @@\n     width: 25%;\r\n }\r\n \r\n .flex__internet {\r\n-    padding-left: 5px;\r\n     margin-left: 50px;\r\n     display: flex;\r\n     flex-wrap: wrap;\r\n }\r\n"
+                },
+                {
+                    "date": 1658207555803,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -301,8 +301,12 @@\n     display: flex;\r\n     flex-wrap: wrap;\r\n }\r\n \r\n+.flex__icon {\r\n+    padding-left: 10px;\r\n+}\r\n+\r\n .nav__footer2 {\r\n     width: 25%;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1658207574549,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -302,9 +302,9 @@\n     flex-wrap: wrap;\r\n }\r\n \r\n .flex__icon {\r\n-    padding-left: 10px;\r\n+    padding-left: 20px;\r\n }\r\n \r\n .nav__footer2 {\r\n     width: 25%;\r\n"
+                },
+                {
+                    "date": 1658207591072,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -296,9 +296,9 @@\n     width: 25%;\r\n }\r\n \r\n .flex__internet {\r\n-    margin-left: 50px;\r\n+    margin-left: 0px;\r\n     display: flex;\r\n     flex-wrap: wrap;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1658207608024,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -296,9 +296,8 @@\n     width: 25%;\r\n }\r\n \r\n .flex__internet {\r\n-    margin-left: 0px;\r\n     display: flex;\r\n     flex-wrap: wrap;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1658207632761,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -301,9 +301,9 @@\n     flex-wrap: wrap;\r\n }\r\n \r\n .flex__icon {\r\n-    padding-left: 20px;\r\n+    padding-left: ;\r\n }\r\n \r\n .nav__footer2 {\r\n     width: 25%;\r\n"
+                },
+                {
+                    "date": 1658207671611,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -300,11 +300,9 @@\n     display: flex;\r\n     flex-wrap: wrap;\r\n }\r\n \r\n-.flex__icon {\r\n-    padding-left: ;\r\n-}\r\n+.flex__icon {}\r\n \r\n .nav__footer2 {\r\n     width: 25%;\r\n }\r\n"
+                },
+                {
+                    "date": 1658207695773,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -300,9 +300,11 @@\n     display: flex;\r\n     flex-wrap: wrap;\r\n }\r\n \r\n-.flex__icon {}\r\n+.flex__icon {\r\n+    padding-left: 10px;\r\n+}\r\n \r\n .nav__footer2 {\r\n     width: 25%;\r\n }\r\n"
+                },
+                {
+                    "date": 1658207709217,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -301,9 +301,9 @@\n     flex-wrap: wrap;\r\n }\r\n \r\n .flex__icon {\r\n-    padding-left: 10px;\r\n+    padding-left: 20px;\r\n }\r\n \r\n .nav__footer2 {\r\n     width: 25%;\r\n"
+                },
+                {
+                    "date": 1658207726437,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -292,9 +292,9 @@\n     height: 400px;\r\n }\r\n \r\n .nav__footer1 {\r\n-    width: 25%;\r\n+    width: 30%;\r\n }\r\n \r\n .flex__internet {\r\n     display: flex;\r\n"
+                },
+                {
+                    "date": 1658207733654,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -292,9 +292,9 @@\n     height: 400px;\r\n }\r\n \r\n .nav__footer1 {\r\n-    width: 30%;\r\n+    width: 25%;\r\n }\r\n \r\n .flex__internet {\r\n     display: flex;\r\n"
+                },
+                {
+                    "date": 1658207751576,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -305,9 +305,9 @@\n     padding-left: 20px;\r\n }\r\n \r\n .nav__footer2 {\r\n-    width: 25%;\r\n+    padding-left: 20px width: 25%;\r\n }\r\n \r\n .nav__footer3 {\r\n     width: 25%;\r\n"
+                },
+                {
+                    "date": 1658207764669,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -305,9 +305,10 @@\n     padding-left: 20px;\r\n }\r\n \r\n .nav__footer2 {\r\n-    padding-left: 20px width: 25%;\r\n+    padding-left: 20px;\r\n+    width: 25%;\r\n }\r\n \r\n .nav__footer3 {\r\n     width: 25%;\r\n"
+                },
+                {
+                    "date": 1658207772932,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -305,9 +305,9 @@\n     padding-left: 20px;\r\n }\r\n \r\n .nav__footer2 {\r\n-    padding-left: 20px;\r\n+    padding-left: 50px;\r\n     width: 25%;\r\n }\r\n \r\n .nav__footer3 {\r\n"
+                },
+                {
+                    "date": 1658207779905,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -305,9 +305,9 @@\n     padding-left: 20px;\r\n }\r\n \r\n .nav__footer2 {\r\n-    padding-left: 50px;\r\n+    padding-left: 90px;\r\n     width: 25%;\r\n }\r\n \r\n .nav__footer3 {\r\n"
+                },
+                {
+                    "date": 1658207820646,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -284,8 +284,9 @@\n \r\n /* footer-nav */\r\n \r\n .footer__nav {\r\n+    font-family: var(--font-primary);\r\n     padding-top: 100px;\r\n     display: flex;\r\n     flex-wrap: wrap;\r\n     width: 100%;\r\n"
+                },
+                {
+                    "date": 1658207901408,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -292,8 +292,13 @@\n     width: 100%;\r\n     height: 400px;\r\n }\r\n \r\n+.footer-nav h5 {\r\n+    font-size: 16px;\r\n+    line-height: 19px;\r\n+}\r\n+\r\n .nav__footer1 {\r\n     width: 25%;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1658207938678,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -297,8 +297,12 @@\n     font-size: 16px;\r\n     line-height: 19px;\r\n }\r\n \r\n+.footer-nav p {\r\n+    color: #292929;\r\n+}\r\n+\r\n .nav__footer1 {\r\n     width: 25%;\r\n }\r\n \r\n"
                 }
             ],
             "date": 1658155823163,
